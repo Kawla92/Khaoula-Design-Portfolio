@@ -136,7 +136,7 @@ app.post('/api/contact', contactValidationRules, handleValidationErrors, async (
                 <br>
                 <p>Cordialement,</p>
                 <p><b>Khaoula Zaroui</b></p>
-                <p><i>Graphic Designer</i></p>
+                <p><i>Graphic Designer</i></p> 
             `
         });
 
