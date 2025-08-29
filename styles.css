@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 .intro {
     
-    background-image: url('images/banner.jpg');
+    background-image: url('images/banner.webp');
     background-size: cover;
     height: 400px;
     transition: all 0.3s ease;
@@ -706,3 +706,4 @@ article a:hover {
         width: 95% !important;
     }
 }
+
