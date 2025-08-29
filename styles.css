@@ -1,0 +1,708 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6rem;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+
+    margin: 20px auto !important;
+}
+
+.logo {
+    cursor: pointer;
+    width: 300px;
+    height: auto;
+    margin: -50px auto;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px 15px;
+    margin: 20px;;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+
+nav ul li a:hover {
+    color: crimson ;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.intro {
+    
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    height: 400px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro-text {
+    text-align: center;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 600px;
+    animation: opacity alternate 2s ease-in-out;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.logo-list-img img {
+    margin: 20px auto;
+    height: 300px;
+    width : 500px;
+    border-radius: 16px;
+    box-shadow: 0 0 8px #6c757d;
+    cursor: pointer;
+}
+
+.logo-list-img img:hover {
+    box-shadow: 0 4px 4px crimson;
+}
+
+.description {
+    color: #333;
+    margin: 20px auto;
+    width: 800px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding: 20px;
+    background: linear-gradient( to right, #fff, rgba(247, 238, 185, 0.8));
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    animation: identifier 5s infinite repeat ease-in-out;
+}
+
+@keyframes identifier {
+    0% {
+        background-color: rgba(249, 252, 207, 0.4);
+        opacity: 0;
+    }
+    50% {
+        background-color: #fff;
+        opacity: 0.5;
+    }
+    100% {
+        background-color: rgba(249, 252, 207, 0.4);
+        opacity: 1;
+    }
+}
+
+.description a {
+    text-decoration: none;
+    font-weight: medium;
+}
+
+.description mark:hover {
+    color: crimson;
+}
+
+.logo-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+}
+
+
+video {
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 16px;
+    box-shadow: 10px, 10px 10px #333;
+    border: 2px solid #333;
+    margin: 30px auto;
+    
+}
+
+section h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease-out, transform 0.1s ease-out;
+    will-change: transform, opacity;
+}
+
+.zoom-in.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+    will-change: transform, opacity;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform, 0.3s;
+}
+
+.cert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cert-intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.cert-intro h4 {
+    margin-top: 30px;
+}
+
+.cert-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #f4f4f4;
+}
+
+
+#projets, #contact, #about {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+
+#projets img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.projets-graphic-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px auto;
+    
+}
+
+.logo-design, .conception-réseausocial, .conception-imprimées, .dev-web, .concept-web, 
+.motion-graphic, .certification-1, .certification-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow:  0 0 10px #333;
+}
+
+.logo-design img, .conception-réseausocial img, .conception-imprimées img, .dev-web img, .concept-web img, .motion-graphic img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.certification-1 img, .certification-2 img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: #333 solid 1px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+
+.certification-1 .btn-primary, .certification-2 .btn-primary {
+    margin: 20px !important;
+}
+
+.btn-primary:hover {
+    font-weight: 600 !important;
+}
+    
+
+
+
+
+.btn-info:hover, .btn-info a:hover {
+    font-weight: bold;
+    width: 200px;
+    color: crimson;
+}
+
+.btn-info {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1.5px 1.5px 1.5px cyan;
+}
+
+.branding-description {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 20px;
+    
+}
+
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+}
+
+.required {
+    color: crimson;
+}
+
+form button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+form button:hover {
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+}
+
+#whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        text-decoration: none;
+        z-index: 9999;
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    #whatsapp-button:hover {
+        transform: scale(1.1);
+        border: 1px solid #0e953f;
+    }
+
+footer {
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+.footer-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo-footer {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.footer-intro p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.footer-intro h5, .footer-intro h4 {
+    margin: -40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content h5, .footer-content h4 {
+    
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.socialmedia-icon  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia-icon a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.socialmedia-icon i {
+    font-size: 20px;
+}
+
+.socialmedia-icon a:hover {
+    color: crimson;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    margin-top: 50px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-links p {
+    text-align: center;
+}
+
+
+.footer-links a:hover {
+    color: crimson;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.copyright p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.back-to-top {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 9999;
+    display: none; /* Caché par défaut */
+    transition: opacity 0.3s ease;
+}
+
+.back-to-top:hover {
+background-color: crimson;
+transform: translateY(-5px);
+transition: transform 0.3s ease-out;
+}
+
+.back-to-top.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.back-to-left {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+hr {
+    width: 400px;
+    color: #333;
+}
+
+.archilux, .bury, .cerena, .yvs, .clothings, .comida, .hp, .peanut, .restaurant, 
+.calendrier, .cartographie, .branding, .full_project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img, 
+.peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, 
+.full_project img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    gap: 15rem;
+    margin-right: 30px;
+    box-shadow: 1px 1px 1px 1px #64748b;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.archilux img:hover, .bury img:hover, .cerena img:hover, .yvs img:hover, 
+ .clothings img:hover, .comida img:hover, .hp img:hover, .peanut img:hover, 
+ .restaurant img:hover, .calendrier img:hover, .cartographie img:hover , 
+ .branding img:hover, .full_project img:hover {
+    width: 250px;
+    height: 250px;
+}
+
+
+.main-conception {
+    margin: 20px 40px;
+}
+
+.conception-logo, .design-socialmedia, .design-imprimés, .uiux-design {
+    margin-bottom: 50px;
+}
+
+.conception-logo div, .design-socialmedia, .design-imprimés div, .uiux-design div {
+   padding: 20px;
+}
+
+article {
+    max-width: 600px;
+    margin: 20px auto;
+    background: linear-gradient( to right, #fff, rgba(247, 238, 185, 0.8));
+    padding: 1.5rem;
+    border-radius: 0.375rem;
+    color: #333;
+    box-shadow: 0 0 8px #6c757d;
+}
+
+article h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+article a {
+    color: #f4f4f4;
+    text-decoration: none;
+    background-color: crimson;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+}
+
+article a:hover {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+.blog-articles-container {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 20px;
+}
+
+.catégories {
+    width: 600px;
+    margin: 30px auto;
+}
+
+@media (max-width: 992px) {
+    .projets-graphic-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Pour les tablettes et grands téléphones */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Empile les liens de navigation */
+        margin: 10px 0;
+    }
+    nav ul li a {
+        display: block; /* Fait en sorte que le lien occupe toute la largeur */
+        padding: 10px;
+    }
+    .projets-graphic-container {
+        grid-template-columns: 1fr; /* Une seule colonne */
+    }
+    .footer-content {
+        flex-direction: column; /* Empile les sections du footer */
+        padding-bottom: 20px;
+    }
+    .cert-content {
+        flex-direction: column; /* Empile les certifications */
+    }
+    .bury, .cerena  {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+/* Pour les mobiles */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 200px;
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+
+    header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .intro-text {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .description {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    .bury, .cerena  {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+
+    /* Ajustement des images de la galerie pour les petits écrans */
+    .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img,
+    .peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, .full_project img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .logo-list-img img {
+        height: 200px;
+        width: 350px;
+    }
+    
+    .archilux img:hover, .bury img:hover, .cerena img:hover, .yvs img:hover,
+    .clothings img:hover, .comida img:hover, .hp img:hover, .peanut img:hover,
+    .restaurant img:hover, .calendrier img:hover, .cartographie img:hover,
+    .branding img:hover, .full_project img:hover {
+    transform: scale(1.02); /* Réduit l'effet de hover pour éviter les débordements */
+    }
+
+    .w-75 { /* Surcharge la classe bootstrap pour un meilleur affichage */
+        width: 95% !important;
+    }
+}
