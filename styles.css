@@ -677,7 +677,7 @@ article a:hover {
         font-size: 1rem;
         padding: 15px;
     }
-    .bury, .cerena  {
+    .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
@@ -706,4 +706,5 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
