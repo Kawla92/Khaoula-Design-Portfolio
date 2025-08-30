@@ -647,7 +647,8 @@ article a:hover {
     }
 
     .description { 
-        width: 600px
+        width: 600px;
+        margin: 0 20px;
     }
     
     .bury, .cerena  {
@@ -688,19 +689,20 @@ article a:hover {
 
     .description {
         width: 400px;
+        margin: 0 20px;
     }
 
     #whatsapp-button {
         width: 40px;
         height: 40px;
 
-    logo-list-img img {
+    .logo-list-img img {
         width: 250px;
         heigh: 150px
     }
 
     .catégories {
-        width: 400px;
+        width: 320px;
         padding-bottom: 20px;
     }
 
@@ -737,6 +739,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
