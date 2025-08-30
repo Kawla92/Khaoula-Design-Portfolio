@@ -696,13 +696,13 @@ article a:hover {
         width: 40px;
         height: 40px;
 
-    .logo-list-img img {
+    .logo-list-img {
         width: 250px;
         heigh: 150px
     }
 
     .catégories {
-        width: 320px;
+        width: 300px;
         padding-bottom: 20px;
     }
 
@@ -712,7 +712,7 @@ article a:hover {
     
     .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 2fr);
     }
 
 
@@ -739,6 +739,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
