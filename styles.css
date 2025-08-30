@@ -677,7 +677,7 @@ article a:hover {
        
         font-size: 1rem;
         /* Set width to 100% to fill the parent container */
-        width: 100%; 
+        width: 300px; 
         /* Padding adds space inside the element */
         padding: 15px; 
         /* Ensures padding is included in the total width, preventing overflow */
@@ -719,6 +719,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
