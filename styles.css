@@ -645,6 +645,11 @@ article a:hover {
     .cert-content {
         flex-direction: column; /* Empile les certifications */
     }
+
+    .description { 
+        width: 600px
+    }
+    
     .bury, .cerena  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -689,7 +694,10 @@ article a:hover {
         width: 40px;
         height: 40px;
 
-    
+    logo-list-img img {
+        width: 250px;
+        heigh: 150px
+    }
 
     .catégories {
         width: 400px;
@@ -729,6 +737,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
