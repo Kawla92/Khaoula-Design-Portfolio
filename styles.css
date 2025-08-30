@@ -674,7 +674,7 @@ article a:hover {
     }
 
     .description {
-        .description {
+       
         font-size: 1rem;
         /* Set width to 100% to fill the parent container */
         width: 100%; 
@@ -682,8 +682,6 @@ article a:hover {
         padding: 15px; 
         /* Ensures padding is included in the total width, preventing overflow */
         box-sizing: border-box; 
-    }
-        
     }
     .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
@@ -714,6 +712,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
