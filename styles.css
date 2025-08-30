@@ -643,7 +643,7 @@ article a:hover {
         padding-bottom: 20px;
     }
     .cert-content {
-         grid-template-columns: 1fr /* Empile les certifications */
+         display-flex: colomn; /* Empile les certifications */
     }
     .bury, .cerena  {
         display: grid;
@@ -692,7 +692,8 @@ article a:hover {
     
 
     .catégories {
-        width: 300px
+        width: 400px;
+        padding-bottom: 20px;
     }
 
     .catégories a {
@@ -728,6 +729,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
