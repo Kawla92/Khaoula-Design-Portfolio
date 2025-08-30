@@ -687,8 +687,14 @@ article a:hover {
     }
 
     #about {
-        width: 400px;
+        width: 600px;
         align-items:start;
+        padding-left: 20px;
+    }
+
+    .logo-type-img, .elements-video {
+        width:200px;
+        height:100px
     }
     .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
@@ -719,6 +725,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
