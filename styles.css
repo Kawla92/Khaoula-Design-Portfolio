@@ -682,6 +682,13 @@ article a:hover {
         padding: 15px; 
         /* Ensures padding is included in the total width, preventing overflow */
         box-sizing: border-box; 
+        margin-left: 0;
+        text-align:start;
+    }
+
+    #about {
+        width: 400px;
+        align-items:start;
     }
     .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
@@ -712,6 +719,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
