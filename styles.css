@@ -685,6 +685,13 @@ article a:hover {
         align-items:start;
     }
 
+    .catégories {
+        width: 300px
+    }
+
+    .catégories a {
+        font-size: 1rem;
+    }
     
     .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
@@ -715,6 +722,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
