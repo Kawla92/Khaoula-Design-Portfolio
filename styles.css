@@ -643,12 +643,20 @@ article a:hover {
         padding-bottom: 20px;
     }
     .cert-content {
-        flex-direction: column; /* Empile les certifications */
+         grid-template-columns: 1fr /* Empile les certifications */
     }
     .bury, .cerena  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
+
+    .description {
+        width: 400px;
+    }
+
+    #whatsapp-button {
+        width: 40px;
+        height: 40px;
 }
 
 /* Pour les mobiles */
@@ -674,16 +682,14 @@ article a:hover {
     }
 
     .description {
-       
-        font-size: 1rem;
-        
-        padding: 15px; 
+        width: 400px;
     }
 
-    #about {
-        width: 400px;
-        align-items:start;
-    }
+    #whatsapp-button {
+        width: 40px;
+        height: 40px;
+
+    
 
     .catégories {
         width: 300px
@@ -722,6 +728,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
