@@ -102,18 +102,6 @@ nav ul li a:hover {
     }
 }
 
-.logo-list-img img {
-    margin: 20px auto;
-    height: 300px;
-    width: 500px;
-    border-radius: 16px;
-    box-shadow: 0 0 8px #6c757d;
-    cursor: pointer;
-}
-
-.logo-list-img img:hover {
-    box-shadow: 0 0px 2px crimson;
-}
 
 .description {
     color: #333;
@@ -165,15 +153,7 @@ nav ul li a:hover {
 }
 
 
-video {
-    width: 400px;
-    margin-left: 30px;
-    border-radius: 16px;
-    box-shadow: 10px, 10px 10px #333;
-    border: 2px solid #333;
-    margin: 30px auto;
-    
-}
+
 
 section h2 {
     text-align: center;
@@ -687,54 +667,35 @@ article a:hover {
         width: 95%;
     }
 
-    .description, .compétences, .cert, .elements-video {
+    .description, .compétences, .cert {
         width: 400px;
-        margin: 0 20px;
+        margin: 10px 20px;
     }
 
     #whatsapp-button {
         width: 40px;
         height: 40px;
 
-    .logo-list-img {
-        width: 250px;
-        heigh: 150px;
-        margin: 0 20px;
-    }
-
-    .catégories {
-        padding-bottom: 20px;
-        width: 200px;
-    }
-
-    .catégories a {
-        font-size: 1rem;
-        width: 200px;
-    }
-    
+   
     .bury, .cerena  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
 
         .archilux, .clothings, .restaurant {
-            flex-direction: column;
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 2fr);
         }
 
 
     /* Ajustement des images de la galerie pour les petits écrans */
     .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img,
     .peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, .full_project img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
-    .logo-list-img img {
-        height: 200px;
-        width: 350px;
-    }
+   
     
     .archilux img:hover, .bury img:hover, .cerena img:hover, .yvs img:hover,
     .clothings img:hover, .comida img:hover, .hp img:hover, .peanut img:hover,
@@ -747,6 +708,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
