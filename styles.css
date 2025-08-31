@@ -620,6 +620,7 @@ article a:hover {
     
     .projets-graphic-container {
         grid-template-columns: 1fr; /* Une seule colonne */
+         margin: 20px auto;
     }
     
     .footer-content {
@@ -680,9 +681,19 @@ article a:hover {
         margin: 10px 20px;
     }
 
+    .projets-graphic-container {
+         margin: 20px auto;
+        grid-template-column: 1fr;
+        width: 300px;
+        
+    }
+
     .description p, .compétences p, .cert p {
         word-warp: break-word;
+        overflow-wrap: anywhere;
     }
+
+    
 
     #whatsapp-button {
         width: 40px;
@@ -697,8 +708,8 @@ article a:hover {
 
     .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img,
     .peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, .full_project img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .archilux img:hover, .bury img:hover, .cerena img:hover, .yvs img:hover,
@@ -709,6 +720,7 @@ article a:hover {
     }
 }
  
+
 
 
 
