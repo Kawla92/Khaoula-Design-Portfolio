@@ -626,19 +626,16 @@ article a:hover {
         flex-direction: column; /* Empile les certifications */
     }
 
-    .description { 
-        width: 600px;
+    .description, .compétences, .cert { 
+        width: 400px;
         margin: 0 20px;
     }
     
-    .bury, .cerena  {
+    .bury, .cerena, .archilux, .restaurant, .clothings  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
 
-    .description {
-        width: 400px;
-    }
 
     #whatsapp-button {
         width: 40px;
@@ -677,15 +674,11 @@ article a:hover {
         height: 40px;
 
    
-    .bury, .cerena  {
+    .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
-
-        .archilux, .clothings, .restaurant {
-            display: grid;
-            grid-template-columns: repeat(1, 2fr);
-        }
+ 
 
 
     /* Ajustement des images de la galerie pour les petits écrans */
@@ -708,6 +701,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
