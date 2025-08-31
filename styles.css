@@ -689,6 +689,10 @@ article a:hover {
         width: 200px;
     }
 
+    .projets-graphic-container {
+        margin-right: -25px;
+    }
+
 
     .description p, .compétences p, .cert p {
         word-warp: break-word;
@@ -729,6 +733,7 @@ article a:hover {
     }
 }
  
+
 
 
 
