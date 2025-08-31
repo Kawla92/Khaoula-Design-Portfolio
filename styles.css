@@ -218,7 +218,7 @@ section h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
 }
 
 
@@ -703,6 +703,11 @@ article a:hover {
         grid-template-columns: repeat(2, 2fr);
     }
 
+    hr {
+    width: 200px;
+    color: #333;
+}
+
     .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img,
     .peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, .full_project img {
         width: 140px;
@@ -717,6 +722,7 @@ article a:hover {
     }
 }
  
+
 
 
 
