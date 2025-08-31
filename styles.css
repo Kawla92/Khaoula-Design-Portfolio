@@ -684,7 +684,7 @@ article a:hover {
         margin: 10px 20px;
     }
 
-    .cert-content, .projets-graphic-container {
+    .cert-content {
         margin: 10px 20px;
         width: 200px;
     }
@@ -729,6 +729,7 @@ article a:hover {
     }
 }
  
+
 
 
 
