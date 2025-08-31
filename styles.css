@@ -630,14 +630,18 @@ article a:hover {
     .description, .compétences, .cert { 
         width: 400px;
         margin: 0 20px;
+        padding-left: 20px;
     }
     
     .bury, .cerena, .archilux, .restaurant, .clothings  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
-        padding: 20px 25px;
+        margin: 20px 25px;
     }
 
+    .catégories, .blog-articles-container {
+        width: 300px;
+    }
 
     #whatsapp-button {
         width: 40px;
@@ -681,6 +685,7 @@ article a:hover {
         grid-template-columns: repeat(2, 2fr);
     }
  
+
 
 
 
