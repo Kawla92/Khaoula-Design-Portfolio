@@ -105,14 +105,14 @@ nav ul li a:hover {
 .logo-list-img img {
     margin: 20px auto;
     height: 300px;
-    width : 500px;
+    width: 500px;
     border-radius: 16px;
     box-shadow: 0 0 8px #6c757d;
     cursor: pointer;
 }
 
 .logo-list-img img:hover {
-    box-shadow: 0 4px 4px crimson;
+    box-shadow: 0 0px 2px crimson;
 }
 
 .description {
@@ -714,11 +714,13 @@ article a:hover {
     
     .bury, .cerena  {
         display: grid;
-        grid-template-columns: repeat(1, 2fr);
+        grid-template-columns: repeat(2, 2fr);
     }
 
         .archilux, .clothings, .restaurant {
             flex-direction: column;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
         }
 
 
@@ -745,6 +747,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
