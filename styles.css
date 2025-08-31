@@ -687,7 +687,7 @@ article a:hover {
         width: 95%;
     }
 
-    .description {
+    .description, .compétences, .cert {
         width: 400px;
         margin: 0 20px;
     }
@@ -702,17 +702,17 @@ article a:hover {
     }
 
     .catégories {
-        width: 300px;
         padding-bottom: 20px;
     }
 
     .catégories a {
         font-size: 1rem;
+        width: 300px;
     }
     
     .bury, .cerena, .archilux, .clothings, .restaurant  {
         display: grid;
-        grid-template-columns: repeat(1, 2fr);
+        grid-template-columns: repeat(2, 2fr);
     }
 
 
@@ -739,6 +739,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
