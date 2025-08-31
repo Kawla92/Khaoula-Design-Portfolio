@@ -516,6 +516,7 @@ transition: transform 0.3s ease-out;
 hr {
     width: 400px;
     color: #333;
+    height: 3px;
 }
 
 .archilux, .bury, .cerena, .yvs, .clothings, .comida, .hp, .peanut, .restaurant, 
@@ -709,8 +710,9 @@ article a:hover {
     }
 
     hr {
-    width: 80px;
+    width: 100px;
     color: #333;
+    height: 3px;
 }
 
     .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img,
@@ -727,6 +729,7 @@ article a:hover {
     }
 }
  
+
 
 
 
