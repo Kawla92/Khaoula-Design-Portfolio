@@ -507,6 +507,11 @@ transition: transform 0.3s ease-out;
 .back-to-left {
     cursor: pointer;
     font-weight: 700;
+    border-radius: 0px !important;
+}
+
+.back-to-left:hover {
+    box-shadow: 0 0 4px yellow; 
 }
 
 hr {
@@ -684,10 +689,6 @@ article a:hover {
         width: 200px;
     }
 
-    .projets-graphic-container {
-        margin-right: 50px;
-    }
-
 
     .description p, .compétences p, .cert p {
         word-warp: break-word;
@@ -728,6 +729,7 @@ article a:hover {
     }
 }
  
+
 
 
 
