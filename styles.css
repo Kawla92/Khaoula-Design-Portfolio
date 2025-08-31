@@ -696,14 +696,15 @@ article a:hover {
         width: 40px;
         height: 40px;
 
-    .logo-list-img img{
+    .logo-list-img {
         width: 250px;
-        heigh: 150px
+        heigh: 150px;
+        margin: 0 20px;
     }
 
     .catégories {
         padding-bottom: 20px;
-        width: 300px;
+        width: 200px;
     }
 
     .catégories a {
@@ -711,10 +712,14 @@ article a:hover {
         width: 200px;
     }
     
-    .bury, .cerena, .archilux, .clothings, .restaurant  {
+    .bury, .cerena  {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
     }
+
+        .archilux, .clothings, .restaurant {
+            flex-direction: column;
+        }
 
 
     /* Ajustement des images de la galerie pour les petits écrans */
@@ -740,6 +745,7 @@ article a:hover {
         width: 95% !important;
     }
 }
+
 
 
 
