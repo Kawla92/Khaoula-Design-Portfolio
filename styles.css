@@ -616,7 +616,6 @@ article a:hover {
     
     .projets-graphic-container {
         grid-template-columns: 1fr; /* Une seule colonne */
-         margin: 20px auto;
     }
     
     .footer-content {
@@ -729,6 +728,7 @@ article a:hover {
     }
 }
  
+
 
 
 
