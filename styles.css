@@ -251,23 +251,13 @@ section h2 {
     box-shadow:  0 0 10px #333;
 }
 
-.logo-design img, .conception-réseausocial img, .conception-imprimées img, .dev-web img, .concept-web img, .motion-graphic img {
+.logo-design img, .conception-réseausocial img, .conception-imprimées img, .dev-web img, .concept-web img, .motion-graphic img
+.certification-1 img, .certification-2 img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin: 20px;
 }
-
-.certification-1 img, .certification-2 img {
-    max-width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    border: #333 solid 1px;
-    margin: 20px;
-    cursor: pointer;
-}
-
-
 
 .certification-1 .btn-primary, .certification-2 .btn-primary {
     margin: 20px !important;
@@ -650,6 +640,9 @@ article a:hover {
     #whatsapp-button {
         width: 50px;
         height: 50px;
+        position: fixed;
+        right: 20px;  /* au lieu de 0 ou - quelque chose */
+          bottom: 20px;
 }
     
 }
@@ -690,6 +683,9 @@ article a:hover {
     #whatsapp-button {
         width: 50px;
         height: 50px;
+        position: fixed;
+        right: 20px;  /* au lieu de 0 ou - quelque chose */
+        bottom: 20px;
     }
 
    
@@ -700,8 +696,8 @@ article a:hover {
 
     .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img,
     .peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, .full_project img {
-        width: 135px;
-        height: 135px;
+        width: 140px;
+        height: 140px;
     }
 
     .archilux img:hover, .bury img:hover, .cerena img:hover, .yvs img:hover,
@@ -712,6 +708,7 @@ article a:hover {
     }
 }
  
+
 
 
 
