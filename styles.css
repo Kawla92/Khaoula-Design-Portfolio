@@ -276,10 +276,6 @@ section h2 {
     font-weight: 600 !important;
 }
     
-
-
-
-
 .btn-info:hover, .btn-info a:hover {
     font-weight: bold;
     width: 200px;
@@ -684,7 +680,7 @@ article a:hover {
         margin: 10px 20px;
     }
 
-    .cert-content {
+    .cert-content, .projets-graphic-container {
         margin: 10px 20px;
         width: 200px;
     }
@@ -729,6 +725,7 @@ article a:hover {
     }
 }
  
+
 
 
 
