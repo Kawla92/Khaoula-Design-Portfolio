@@ -107,7 +107,7 @@ nav ul li a:hover {
 .description {
     color: #333;
     margin: 20px auto;
-    width: 800px;
+    width: 700px;
     font-size: 1.2em;
     line-height: 1.5;
     padding: 20px;
@@ -636,6 +636,10 @@ article a:hover {
         width: 400px;
         margin: 0 30px;
     }
+
+     .projets-graphic-container {
+        margin-left: -17px;
+    }
     
     .bury, .cerena, .archilux, .restaurant, .clothings  {
         display: grid;
@@ -652,7 +656,7 @@ article a:hover {
         height: 50px;
         position: fixed;
         right: 20px;  /* au lieu de 0 ou - quelque chose */
-          bottom: 20px;
+        bottom: 20px;
 }
     
 }
@@ -690,7 +694,7 @@ article a:hover {
     }
 
     .projets-graphic-container {
-        margin-left: -15px;
+        margin-left: -17px;
     }
     
     
@@ -733,6 +737,7 @@ article a:hover {
     }
 }
  
+
 
 
 
