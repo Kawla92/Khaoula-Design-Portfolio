@@ -637,9 +637,6 @@ article a:hover {
         margin: 0 30px;
     }
 
-     .projets-graphic-container {
-        margin-left: -17px;
-    }
     
     .bury, .cerena, .archilux, .restaurant, .clothings  {
         display: grid;
@@ -737,6 +734,7 @@ article a:hover {
     }
 }
  
+
 
 
 
