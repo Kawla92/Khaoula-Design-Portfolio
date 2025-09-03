@@ -18,6 +18,8 @@ app.use(helmet({
             scriptSrc: ["'self'", "'unsafe-inline'", "https://code.jquery.com", "https://cdn.jsdelivr.net", "https://maxcdn.bootstrapcdn.com"],
             imgSrc: ["'self'", "data:", "https:"],
             fontSrc: ["'self'", "https://cdnjs.cloudflare.com", "https://fonts.gstatic.com"],
+            objectSrc: ["'none'"],
+            upgradeInsecureRequests: [],
             connectSrc: ["'self'"]
         },
          reportOnly: true,
