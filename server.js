@@ -19,7 +19,8 @@ app.use(helmet({
             imgSrc: ["'self'", "data:", "https:"],
             fontSrc: ["'self'", "https://cdnjs.cloudflare.com", "https://fonts.gstatic.com"],
             connectSrc: ["'self'"]
-        }
+        },
+         reportOnly: true,
     }
 }));
 app.use(cors());
