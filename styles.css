@@ -572,29 +572,6 @@ article {
     box-shadow: 0 0 8px #6c757d;
 }
 
-article h3 {
-    margin-top: 0;
-    font-size: 1.5rem;
-}
-
-article a {
-    color: #f4f4f4;
-    text-decoration: none;
-    background-color: crimson;
-    padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
-}
-
-article a:hover {
-    background-color: #ff6347;
-    color: #fff;
-}
-
-.blog-articles-container {
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    gap: 20px;
-}
 
 .catégories {
     width: 600px;
@@ -734,6 +711,7 @@ article a:hover {
     }
 }
  
+
 
 
 
