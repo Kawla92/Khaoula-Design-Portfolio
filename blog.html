@@ -53,6 +53,33 @@
           ]
         }
         </script>
+
+       <style>
+              article h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+article a {
+    color: #f4f4f4;
+    text-decoration: none;
+    background-color: crimson;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+}
+
+article a:hover {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+.blog-articles-container {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 20px;
+}
+
+       </style>
 </head>
  
 <body>
@@ -102,7 +129,7 @@
             <article class="blog-article" id="design-graphique">
                 <h4>Types de logos</h4>
                 <p>Dans le monde de design graphique, le logo est un élément essentiel qui permet d'identifier une marque ou une entreprise. Il existe plusieurs types de logos, chacun ayant ses propres caractéristiques et usages.</p>
-                <a class="btn btn-info" href="article.html" role="button">Lire la suite
+                <a class="btn btn-info" href="logo_type.html" role="button">Lire la suite
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
                         <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                     </svg>
@@ -237,6 +264,7 @@ backToTopBtn.addEventListener("click", () => {
 </body>
 
 </html>
+
 
 
 
