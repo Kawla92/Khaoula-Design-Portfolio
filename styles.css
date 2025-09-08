@@ -562,15 +562,6 @@ hr {
    padding: 20px;
 }
 
-article {
-    max-width: 600px;
-    margin: 20px auto;
-    background: linear-gradient( to right, #fff, rgba(247, 238, 185, 0.8));
-    padding: 1.5rem;
-    border-radius: 0.375rem;
-    color: #333;
-    box-shadow: 0 0 8px #6c757d;
-}
 
 
 .catégories {
@@ -711,6 +702,7 @@ article {
     }
 }
  
+
 
 
 
