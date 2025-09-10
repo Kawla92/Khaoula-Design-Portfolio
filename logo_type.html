@@ -9,8 +9,12 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="Zaroui Khaoula">
     <meta name="theme-color" content="#f4f4f4">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="styles.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -206,4 +210,5 @@ backToTopBtn.addEventListener("click", () => {
 
 </body>
 </html>
+
 
