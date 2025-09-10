@@ -633,7 +633,7 @@ article a:hover {
         flex-direction: column; /* Empile les certifications */
     }
 
-    .description, .compétences, .cert { 
+    .description, .competences, .cert { 
         width: 400px;
         margin: 0 30px;
     }
@@ -681,7 +681,7 @@ article a:hover {
         width: 95%;
     }
 
-    .description, .compétences, .cert {
+    .description, .competences, .cert {
         width: 300px;
         margin: 10px 20px;
     }
@@ -696,7 +696,7 @@ article a:hover {
     }
     
     
-    .description p, .compétences p, .cert p {
+    .description p, .competences p, .cert p {
         word-warp: break-word;
         overflow-wrap: anywhere;
     }
@@ -735,6 +735,7 @@ article a:hover {
     }
 }
  
+
 
 
 
