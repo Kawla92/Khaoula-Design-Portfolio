@@ -520,7 +520,7 @@ hr {
     height: 5px;
 }
 
-.archilux, .bury, .cerena, .yvs, .clothings, .comida, .hp, .peanut, .restaurant, 
+.archilux, .bury, .cerena, .yvs, .clothings, .comida, .hp, .peanut, .imprime, 
 .calendrier, .cartographie, .branding, .full_project {
     display: flex;
     justify-content: center;
@@ -529,10 +529,8 @@ hr {
 }
 
 .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img, 
-.peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, 
+.peanut img, .imprime img, .calendrier img, .cartographie img, .branding img, 
 .full_project img {
-    width: 200px;
-    height: 200px;
     padding: 20px;
     gap: 15rem;
     margin-right: 30px;
@@ -543,7 +541,7 @@ hr {
 
 .archilux img:hover, .bury img:hover, .cerena img:hover, .yvs img:hover, 
  .clothings img:hover, .comida img:hover, .hp img:hover, .peanut img:hover, 
- .restaurant img:hover, .calendrier img:hover, .cartographie img:hover , 
+ .imprime img:hover, .calendrier img:hover, .cartographie img:hover , 
  .branding img:hover, .full_project img:hover {
     width: 250px;
     height: 250px;
@@ -561,7 +559,6 @@ hr {
 .conception-logo div, .design-socialmedia, .design-imprimés div, .uiux-design div {
    padding: 20px;
 }
-
 
 article {
            max-width: 600px;
@@ -639,7 +636,7 @@ article a:hover {
     }
 
     
-    .bury, .cerena, .archilux, .restaurant, .clothings  {
+    .bury, .cerena, .archilux, .imprime, .clothings  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
         margin: 20px 25px;
@@ -710,7 +707,7 @@ article a:hover {
     }
 
    
-    .bury, .cerena, .archilux, .clothings, .restaurant  {
+    .bury, .cerena, .archilux, .clothings, .imprime  {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
@@ -722,19 +719,20 @@ article a:hover {
 }
 
     .archilux img, .bury img, .cerena img, .yvs img, .clothings img, .comida img, .hp img,
-    .peanut img, .restaurant img, .calendrier img, .cartographie img, .branding img, .full_project img {
+    .peanut img, .imprime img, .calendrier img, .cartographie img, .branding img, .full_project img {
         width: 140px;
         height: 140px;
     }
 
     .archilux img:hover, .bury img:hover, .cerena img:hover, .yvs img:hover,
     .clothings img:hover, .comida img:hover, .hp img:hover, .peanut img:hover,
-    .restaurant img:hover, .calendrier img:hover, .cartographie img:hover,
+    .imprime img:hover, .calendrier img:hover, .cartographie img:hover,
     .branding img:hover, .full_project img:hover {
     transform: scale(1.01); /* Réduit l'effet de hover pour éviter les débordements */
     }
 }
  
+
 
 
 
