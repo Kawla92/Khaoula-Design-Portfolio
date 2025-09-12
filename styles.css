@@ -6,9 +6,11 @@ html {
 
 body {
     font-family: Roboto, sans-serif;
+    font-display: swap;
     line-height: 1.6rem;
     margin: 0;
     background-color: #f2f2f2;
+    color: #333;
     overflow-x: hidden;
 }
 
@@ -213,7 +215,7 @@ section h2 {
 
 
 #projets, #contact, #about {
-    background-color: #f4f4f4;
+    background-color: #f8f8f8;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -728,6 +730,7 @@ article a:hover {
     }
 }
  
+
 
 
 
