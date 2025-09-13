@@ -3,7 +3,7 @@ const { body, validationResult } = require('express-validator');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 const helmet = require('helmet');
-const path = require('path');
+const path = require('path'); 
 require('dotenv').config();
 
 const app = express();
