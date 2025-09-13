@@ -86,6 +86,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+app.get('/blog', (req, res) => {
+    res.sendFile(path.join(__dirname, 'conception.html'));
+});
+
 // Route pour servir la page blog
 app.get('/blog', (req, res) => {
     res.sendFile(path.join(__dirname, 'blog.html'));
@@ -115,6 +119,7 @@ app.post('/api/contact', contactValidationRules, handleValidationErrors, async (
         await transporter.sendMail({
             from: process.env.EMAIL_FROM || `"${name}" <${email}>`, // Meilleur format pour le "De"
             to: process.env.EMAIL_USER,
+            replyTo: email, 
             subject: `📩 Nouveau message de ${name} - ${subject}`,
             html: `
                 <h3>Nouveau message via le formulaire de contact</h3>
