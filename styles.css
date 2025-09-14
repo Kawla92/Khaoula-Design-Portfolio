@@ -41,7 +41,8 @@ header {
 
 .lang-btn:hover {
  background-color: crimson;
- padding: 10px;
+ padding: 5px;
+ border-radius: 16px
 }
 
 .flag-icon {
@@ -743,6 +744,7 @@ article a:hover {
     }
 }
  
+
 
 
 
