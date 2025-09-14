@@ -25,7 +25,7 @@ header {
 
 .logo {
     cursor: pointer;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 .lang-btn {
@@ -743,6 +743,7 @@ article a:hover {
     }
 }
  
+
 
 
 
