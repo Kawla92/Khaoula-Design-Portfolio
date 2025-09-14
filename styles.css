@@ -23,15 +23,10 @@ header {
     text-align: center;
 }
 
-h1 {
-    margin: 10px auto !important;
-}
-
 .logo {
     cursor: pointer;
     margin: 10px auto;
 }
-
 
 .lang-btn {
     background: none;
@@ -45,19 +40,15 @@ h1 {
 }
 
 .lang-btn:hover {
- color: crimson;
+ background-color: crimson;
 }
 
 .flag-icon {
   position: relative;
   display: inline-block;
-  width: 2rem; /* Donne une largeur à l'icône */
+  width: 3rem; /* Donne une largeur à l'icône */
   line-height: 1em;
   margin-right: 5px; /* Ajoute un petit espace avant le texte */
-}
-
-.flag-icon:hover {
-    box-shadow: 0 0 3px crimson;
 }
 
 nav ul {
@@ -751,6 +742,7 @@ article a:hover {
     }
 }
  
+
 
 
 
