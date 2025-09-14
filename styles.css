@@ -21,16 +21,27 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    
 }
 
 h1 {
-    margin: 20px auto !important;
+    margin: 0px auto !important;
 }
 
 .logo {
     cursor: pointer;
     margin: 10px auto;
+}
+
+
+.lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 2px 5px;
+    margin: 0 2px;
+    transition: all 0.3s ease;
+    margin: 0px 20px;
 }
 
 nav ul {
@@ -724,6 +735,7 @@ article a:hover {
     }
 }
  
+
 
 
 
