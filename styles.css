@@ -44,10 +44,14 @@ h1 {
     margin: 0px 20px;
 }
 
+.lang-btn:hover {
+ box-shadow: 0 0 2px red;
+}
+
 .flag-icon {
   position: relative;
   display: inline-block;
-  width: 1.333em; /* Donne une largeur à l'icône */
+  width: 2em; /* Donne une largeur à l'icône */
   line-height: 1em;
   margin-right: 5px; /* Ajoute un petit espace avant le texte */
 }
@@ -743,6 +747,7 @@ article a:hover {
     }
 }
  
+
 
 
 
