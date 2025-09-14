@@ -19,8 +19,9 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
+    
 }
 
 h1 {
@@ -51,7 +52,6 @@ nav ul li a {
     margin: 20px;;
     font-weight: 500;
     font-size: 20px;
-    
 }
 
 
@@ -724,6 +724,7 @@ article a:hover {
     }
 }
  
+
 
 
 
