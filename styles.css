@@ -29,12 +29,7 @@ h1 {
 
 .logo {
     cursor: pointer;
-    margin: -50px auto;
-}
-
-.logo img:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s ease;
+    margin: -20px auto;
 }
 
 nav ul {
@@ -730,6 +725,7 @@ article a:hover {
     }
 }
  
+
 
 
 
