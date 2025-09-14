@@ -29,13 +29,11 @@ h1 {
 
 .logo {
     cursor: pointer;
-    width: 300px;
-    height: auto;
     margin: -50px auto;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: transform 0.3s ease;
 }
 
@@ -732,6 +730,7 @@ article a:hover {
     }
 }
  
+
 
 
 
