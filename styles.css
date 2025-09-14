@@ -24,7 +24,7 @@ header {
 }
 
 h1 {
-    margin: 0px auto !important;
+    margin: 10px auto !important;
 }
 
 .logo {
@@ -42,6 +42,14 @@ h1 {
     margin: 0 2px;
     transition: all 0.3s ease;
     margin: 0px 20px;
+}
+
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.333em; /* Donne une largeur à l'icône */
+  line-height: 1em;
+  margin-right: 5px; /* Ajoute un petit espace avant le texte */
 }
 
 nav ul {
@@ -735,6 +743,7 @@ article a:hover {
     }
 }
  
+
 
 
 
