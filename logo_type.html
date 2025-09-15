@@ -159,21 +159,17 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
     </footer>
         
     <script>
-        const backToTopBtn = document.getElementsByClassName("back-to-top")[0];
-
-    backToTopBtn.addEventListener("click", () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-    });
-        
-    window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-        backToTopBtn.classList.add("show");
-    } else {
-        backToTopBtn.classList.remove("show");
-    }
-});
+        const backToTopBtn = document.querySelector('.back-to-top');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    backToTopBtn.classList.add('show');
+                } else {
+                    backToTopBtn.classList.remove('show');
+                }
+            });
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
 
        const whatsappButton = document.getElementById("whatsapp-button");
        whatsappButton.addEventListener("click", function() {
@@ -183,6 +179,7 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
 
 </body>
 </html>
+
 
 
 
