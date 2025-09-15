@@ -11,13 +11,9 @@
     <meta name="theme-color" content="#f4f4f4">
     
     <link rel="stylesheet" href="styles.css">
-
     <link rel="icon" href="images/favicon.webp" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
     <style>
     img {
         max-width: 80%;
@@ -103,7 +99,7 @@
     <h4>Vous voulez un logo ?</h4>
     <a href="demande_devis.html" class="btn btn-primary">Demandez un devis
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
         </svg>
     </a>
     </div>
@@ -126,14 +122,12 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
             </div>
             <div class="footer-links">
                 <h5>Liens utiles</h5>
-
                     <a href="#accueil">Accueil</a>
                     <a href="#about">A propos</a>
                     <a href="#projets">Projets</a>
                     <a href="conception.html">Galerie</a>
                     <a href="blog.html">Blog</a>
                     <a href="#contact">Contact</a>
-
             </div>
             <div class="socialmedia">
                 <h5>Suivez-moi</h5>
@@ -153,9 +147,7 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
                 <a href="https://www.facebook.com/profile.php?id=61578812044076" target="_blank" aria-label="Visitez mon compte Facebook" rel="noopener noreferrer">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
-                
             </div>
-            
         </div>
         </div>
         <div class="copyright">
@@ -167,37 +159,19 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
     <script>
         const backToTopBtn = document.getElementsByClassName("back-to-top")[0];
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) { 
-        backToTopBtn.classList.add("show");
-    } else {
-        backToTopBtn.classList.remove("show");
-    }
-});
-
-backToTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+    backToTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
     });
+        
     window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 300) {
         backToTopBtn.classList.add("show");
     } else {
         backToTopBtn.classList.remove("show");
     }
 });
-
-
-});
-      
-
-       backToTopBtn.addEventListener("click", () => {
-           window.scrollTo({
-               top: 0,
-               behavior: "smooth"
-           });
-       });
 
        const whatsappButton = document.getElementById("whatsapp-button");
        whatsappButton.addEventListener("click", function() {
