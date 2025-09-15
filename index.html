@@ -136,7 +136,7 @@
           </ul>
         </li>
         <li data-i18n="skill-4">Conception des imprimés (flyers, papier entête, cartes de visite...)</li>
-       <li data-i18n="tech-1">Technologies : Adobe Illustrator, Adobe Photoshop, Canva</li>
+       <li data-i18n="tech-1" class="list-unstyled">Technologies : Adobe Illustrator, Adobe Photoshop, Canva</li>
       </ul>
       
     <hr>
@@ -148,19 +148,19 @@
         <li data-i18n="desc-skill-5">Création de formulaires interactifs</li>
         <li data-i18n="desc-skill-3">Site web vitrine responsive</li>
         <li data-i18n="desc-skill-5">Site web portfolio avec formulaire validé des deux côtés</li>
-        <li data-i18n="tech-2">Technologies : HTML, CSS, JavaScript, Bootstrap</li>
+        <li data-i18n="tech-2" class="list-unstyled">Technologies : HTML, CSS, JavaScript, Bootstrap</li>
       </ul>
     <hr>
     <!-- UI/UX Design -->
     <li data-i18n="skill-6"><b>UI/UX Design</b></li>
       <li data-i18n="desc-skill-6">Conception d'interfaces utilisateur, expérience utilisateur, wireframing</li>
-      <li data-i18n="tech-3">Technologies : Figma, Adobe XD</li>
+      <li data-i18n="tech-3" class="list-unstyled">Technologies : Figma, Adobe XD</li>
 
     <hr>
 
     <!-- Motion Graphique -->
     <li data-i18n="skill-7"><b>Motion graphique</b></li>
-      <li data-i18n="tech-4">Technologies : Microsoft ClipChamp, Adobe After Effects, Adobe Premiere Pro</li>
+      <li data-i18n="tech-4" class="list-unstyled">Technologies : Microsoft ClipChamp, Adobe After Effects, Adobe Premiere Pro</li>
    
   </ul>
 </div>
@@ -263,7 +263,7 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
                 </div>
                 
                 <div class="form-group">
-                    <label for="name">Nom <span class="required">*</span>:</label>
+                    <label for="name" data-i18n="form-name">Nom <span class="required">*</span>:</label>
                     <input type="text" id="name" name="name" required class="form-control" placeholder="Votre nom complet"
                     pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ\s\-']{2,50}$"
                     title="2 à 50 caractères, lettres, espaces, tirets et apostrophes autorisés"
@@ -283,20 +283,20 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
                 </div>
                 
                 <div class="form-group">
-                    <label for="subject">Sujet <span class="required">*</span>:</label>
+                    <label for="subject" data-i18n="form-subject">Sujet <span class="required">*</span>:</label>
                     <select name="subject" id="subject" class="form-control" required aria-describedby="subject-error">
-                        <option value="">Choisissez un sujet</option>
-                        <option value="logo">Demande de logo</option>
-                        <option value="identité visuelle">Demande d'identité visuelle</option>
-                        <option value="maquette">Demande de conception de maquette Web</option>
-                        <option value="site web">Demande de site Web (landing page/site vitrine/portfolio)</option>
-                        <option value="autre">Autre service</option>
+                        <option value="" data-i18n="form-option-1">Choisissez un sujet</option>
+                        <option value="logo" data-i18n="form-option-2">Demande de logo</option>
+                        <option value="identité visuelle" data-i18n="form-option-3">Demande d'identité visuelle</option>
+                        <option value="maquette" data-i18n="form-option-4">Demande de conception de maquette Web</option>
+                        <option value="site web" data-i18n="form-option-5">Demande de site Web (landing page/site vitrine/portfolio)</option>
+                        <option value="autre" data-i18n="form-option-6">Autre service</option>
                     </select>
                     <div id="subject-error" class="error-message" role="alert" aria-live="polite"></div>
                 </div>
 
                 <div class="form-group">
-                    <label for="message">Message<span class="required">*</span>:</label>
+                    <label for="message" data-i18n="form-message">Message<span class="required">*</span>:</label>
                     <textarea id="message" name="message" rows="5" required class="form-control" 
                     placeholder="Décrivez votre projet en détail..."
                     minlength="10" maxlength="1000"
@@ -334,10 +334,10 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
             <div class="footer-intro">
                 <img src="images/Logo.webp" class="logo-footer" width="200" height="200" alt="logo" loading="lazy">
                    <h4>Zaroui Khaoula</h4>
-                <p><b>- Votre partenaire créatif !</b>-</p>
+                <p data-i18n="footer-desc"><b>- Votre partenaire créatif !</b>-</p>
             </div>
             <div class="footer-links">
-                <h4>Liens utiles</h4>
+                <h4 data-i18n="link-title1">Liens utiles</h4>
 
                     <a href="#accueil" data-i18n="menu.home">Accueil</a>
                     <a href="#about" data-i18n="menu.about">A propos</a>
@@ -348,7 +348,7 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
 
             </div>
             <div class="socialmedia">
-                <h4>Suivez-moi</h4>
+                <h4 data-i18n="link-title2">Suivez-moi</h4>
                 <div class="socialmedia-icon">
                 <a href="https://www.linkedin.com/in/khawla-zarwi-490a05374/" target="_blank" aria-label="Visitez mon compte LinkedIn" rel="noopener noreferrer">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
