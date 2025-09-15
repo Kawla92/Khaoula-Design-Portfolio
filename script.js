@@ -450,18 +450,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Gestion du bouton retour en haut
-    const backToTopBtn = document.querySelector('.back-to-top');
-    if (backToTopBtn) {
-        window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-    }
-
-    console.log('Script de validation du formulaire initialisé');
-});
-
+   
