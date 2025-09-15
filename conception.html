@@ -7,7 +7,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-2QJ69JVCJV');
 </script>
     <meta charset="UTF-8">
@@ -421,46 +420,28 @@
     <script>
         const backToTopBtn = document.getElementsByClassName("back-to-top")[0];
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) { 
-        backToTopBtn.classList.add("show");
-    } else {
-        backToTopBtn.classList.remove("show");
-    }
-});
-
 backToTopBtn.addEventListener("click", () => {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
     window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 300) {
         backToTopBtn.classList.add("show");
     } else {
         backToTopBtn.classList.remove("show");
     }
 });
 
-
-});
        const whatsappButton = document.getElementById("whatsapp-button");
        whatsappButton.addEventListener("click", function() {
            window.open("https://wa.me/21625226689", "_blank");
        });
 
-       backToTopBtn.addEventListener("click", () => {
-           window.scrollTo({
-               top: 0,
-               behavior: "smooth"
-           });
-       });
-
     </script>
-    
-    
 </body>
 </html>
+
 
 
 
