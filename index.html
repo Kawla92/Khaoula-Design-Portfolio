@@ -55,129 +55,113 @@
  
 <body>
     <header>
-        <div>
-            <img src="/images/Logo.webp" alt="logo" class="logo" width="200" height="200" loading="lazy">
-               <h1>Zaroui Khaoula - Graphic designer -</h1>
-        </div>
-       <div class="language-selector">
-               <button class="lang-btn" data-lang="fr" onclick="changeLanguage('fr')" aria-label="Changer la langue en français">
-                        <span class="flag-icon flag-icon-fr" aria-label="Drapeau de la France"></span> <b class="text-light">Fr</b>
-                    </button>
-              <button class="lang-btn" data-lang="en" onclick="changeLanguage('en')" aria-label="Change language to English">
-                        <span class="flag-icon flag-icon-gb" aria-label="Drapeau de la Britagne"></span> <b class="text-light">En</b>
-                    </button>
-       </div>
-              
-        <div>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#about">A propos</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="conception.html">Galerie</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        </div>
-           
-    </header>
+  <div>
+    <img src="/images/Logo.webp" alt="logo" class="logo" width="250" height="250" loading="lazy">
+    <h1 data-i18n="header.title">Zaroui Khaoula - Graphic designer -</h1>
+  </div>
+
+  <div class="language-selector">
+    <button class="lang-btn" data-lang="fr" onclick="changeLanguage('fr')" aria-label="Changer la langue en français">
+      <span class="flag-icon flag-icon-fr"></span> <b class="text-light">Fr</b>
+    </button>
+    <button class="lang-btn" data-lang="en" onclick="changeLanguage('en')" aria-label="Change language to English">
+      <span class="flag-icon flag-icon-gb"></span> <b class="text-light">En</b>
+    </button>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#accueil" data-i18n="menu.home">Accueil</a></li>
+      <li><a href="#about" data-i18n="menu.about">A propos</a></li>
+      <li><a href="#projets" data-i18n="menu.projects">Projets</a></li>
+      <li><a href="conception.html" data-i18n="menu.gallery">Galerie</a></li>
+      <li><a href="blog.html" data-i18n="menu.blog">Blog</a></li>
+      <li><a href="#contact" data-i18n="menu.contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
     <main>
-        <section id="accueil" class="Accueil">
-            <div class="intro">
-                <div class="intro-text">
-            <h2 class="titre">Bienvenue dans le monde de design !</h2>
-            </div>
-            </div>
-            
-        </section>
+               <section id="accueil" class="Accueil">
+         <div class="intro-text">
+           <h2 class="titre" data-i18n="home.welcome">Bienvenue dans le monde de design !</h2>
+         </div>
+              </section>
         <section id="about">
-            <h3>A propos</h3>
-            <h4><i class="fa fa-pencil"> </i><em>Designer polyvalente, entre créativité & technique !</em></h4>
-            <div class="description">
-                
-            <p>Créative, curieuse et passionnée, j'ai débuté mon parcours en design graphique en suivant des formations spécialisées et des programmes certifiés.</p> 
-            <p>Mon approche combine l'apprentissage structuré avec une sensibilité visuelle naturelle, m'amenant à explorer diverses ressources pour enrichir ma pratique.</p>
-            <p>Mon désir d'approfondir mes connaissances m'a naturellement conduite vers des plateformes d'apprentissage de référence.</p>
-            <p>Alors, j'ai entamé avec une formation dans les bases de web avec<a href="https://openclassrooms.com/fr/profile/view-as/recruiter" target="_blank" title="Ecole Française en ligne" rel="noopener noreferrer" 
+            <h3 data-i18n="about.title">A propos</h3>
+            <h4 data-i18n="about.subtitle"><i class="fa fa-pencil"></i> <em>Designer polyvalente, entre créativité & technique !</em></h4>
+             <div class="description">
+            <p data-i18n="desc-1">Créative, curieuse et passionnée, j'ai débuté mon parcours en design graphique en suivant des formations spécialisées et des programmes certifiés.</p> 
+            <p data-i18n="desc-2">Mon approche combine l'apprentissage structuré avec une sensibilité visuelle naturelle, m'amenant à explorer diverses ressources pour enrichir ma pratique.</p>
+            <p data-i18n="desc-3">Mon désir d'approfondir mes connaissances m'a naturellement conduite vers des plateformes d'apprentissage de référence.</p>
+            <p data-i18n="desc-4">Alors, j'ai entamé avec une formation dans les bases de web avec<a href="https://openclassrooms.com/fr/profile/view-as/recruiter" target="_blank" title="Ecole Française en ligne" rel="noopener noreferrer" 
             aria-label="Visitez mon profil sur OpenClassrooms">
             <mark> OpenClassrooms</mark></a>, en participant à des cours à libre accéss. Où j'ai acquis les compétences fondamentales en web général, HTML et CSS.</p> 
-            <p>En parallèle, j'ai poursuit mes études tant que self-taught avec des tutoriels Youtube et des projets fictifs pour me familiariser avec la création de formulaires et l'animation CSS.</p>
-            <p>A la suite, j'ai complété une certification de 300 heures en Responsive Web Design sur <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank" aria-label="Visitez freecodcamp" rel="noopener noreferrer"><mark>freeCodeCamp</mark></a>, ce qui m'a permis de maîtriser l'intégration responsive et les bonnes pratiques du développement front-end moderne.</p>
-            <p>Toujours à l'affût des innovations, j'intègre également l'intelligence artificielle dans mes processus de création.</p>
-            <p>J'utilise des outils comme Cursor AI pour optimiser l'écriture de code, automatiser certaines backend tâches et tester plus rapidement mes idées, rendant mes projets plus fluides et performants.</p>
-            <p>Deux plus, j'utilise <a href="https://gamma.app/" target="_blank" aria-label="Visitez mon compte gamma" rel="noopener noreferrer"><mark>Gamma</mark></a> pour réaliser des présentations pertinentes, et <mark>Chatgpt</mark> pour la raisonnement et le brainstorming.</p>
-            <p>J'ai ainsi suivi la spécialisation UI/UX Design de<a href="https://calarts.edu/" rel="noopener noreferrer" target="_blank" title="California Institute of the Arts" aria-label="Visitez le site de l'institut"> <mark>CalArts</mark></a> sur Coursera, une formation complète qui m'a initiée aux méthodologies de design centrées utilisateur, à la création de maquettes web et mobiles, aux wireframes, et à la réflexion stratégique derrière une bonne expérience utilisateur.</p>
-            <p>Pour valider mes compétences et solidifier mes connaissances en domaine de web et graphique, Je m'inscris à un BTS en multimédia et marketing.</p>
-            <p>Maintenant, je suis en train de préparer les bases de mon studio en ligne de conception graphique et web, nommé <em><span class="text-danger">"graphiroots_studio"</span></em>. Et je suis une nouvelle formation avec freecodecamp en Anglais destinés aux developpeurs.</p>
+            <p data-i18n="desc-5">En parallèle, j'ai poursuit mes études tant que self-taught avec des tutoriels Youtube et des projets fictifs pour me familiariser avec la création de formulaires et l'animation CSS.</p>
+            <p data-i18n="desc-6">A la suite, j'ai complété une certification de 300 heures en Responsive Web Design sur <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank" aria-label="Visitez freecodcamp" rel="noopener noreferrer"><mark>freeCodeCamp</mark></a>, ce qui m'a permis de maîtriser l'intégration responsive et les bonnes pratiques du développement front-end moderne.</p>
+            <p data-i18n="desc-7">Toujours à l'affût des innovations, j'intègre également l'intelligence artificielle dans mes processus de création.</p>
+            <p data-i18n="desc-8">J'utilise des outils comme Cursor AI pour optimiser l'écriture de code, automatiser certaines backend tâches et tester plus rapidement mes idées, rendant mes projets plus fluides et performants.</p>
+            <p data-i18n="desc-9">Deux plus, j'utilise <a href="https://gamma.app/" target="_blank" aria-label="Visitez mon compte gamma" rel="noopener noreferrer"><mark>Gamma</mark></a> pour réaliser des présentations pertinentes, et <mark>Chatgpt</mark> pour la raisonnement et le brainstorming.</p>
+            <p data-i18n="desc-10">J'ai ainsi suivi la spécialisation UI/UX Design de<a href="https://calarts.edu/" rel="noopener noreferrer" target="_blank" title="California Institute of the Arts" aria-label="Visitez le site de l'institut"> <mark>CalArts</mark></a> sur Coursera, une formation complète qui m'a initiée aux méthodologies de design centrées utilisateur, à la création de maquettes web et mobiles, aux wireframes, et à la réflexion stratégique derrière une bonne expérience utilisateur.</p>
+            <p data-i18n="desc-11">Pour valider mes compétences et solidifier mes connaissances en domaine de web et graphique, Je m'inscris à un BTS en multimédia et marketing.</p>
+            <p data-i18n="desc-12">Maintenant, je suis en train de préparer les bases de mon studio en ligne de conception graphique et web, nommé "<em>graphiroots_studio</em>". Et je suis une nouvelle formation avec freecodecamp en Anglais destinés aux developpeurs.</p>
             </div>
             <div class="competences">
-  <h4>Compétences</h4>
+  <h4 data-i18n= "skills.title">Compétences</h4>
   <ul>
     <!-- Design Graphique -->
     <li>
-      <b>Design graphique</b> 🎨 
+      <b data-i18n="skill-1">Design graphique</b> 🎨 
       <ul>
-        <li>
+        <li data-i18n=desc-skill-1>
           Conception de logo
           <ul>
             <li>Logo mot-symbole</li>
-            <li>Logo pictogramme ou abstrait</li>
-            <li>Logo monogramme ou lettermark</li>
-            <li>Logo combiné</li>
+            <li data-i18n="desc-logo-1">Logo pictogramme ou abstrait</li>
+            <li data-i18n="desc-logo-1">Logo monogramme ou lettermark</li>
+            <li data-i18n="desc-logo-1">Logo combiné</li>
           </ul>
         </li>
-        <li>
-          Identité visuelle
+        <li data-i18n="desc-skill-2">Identité visuelle
           <ul>
-            <li>Logotype et ses supports</li>
-            <li>Palette de couleurs</li>
-            <li>Typographie</li>
-            <li>Éléments graphiques : motif, icônes, formes</li>
+            <li data-i18n="desc-skill-2">Logotype et ses supports</li>
+            <li data-i18n="desc-skill-2">Palette de couleurs</li>
+            <li data-i18n="desc-skill-2">Typographie</li>
+            <li data-i18n="desc-skill-2">Éléments graphiques : motif, icônes, formes</li>
           </ul>
         </li>
-        <li>
-          Conception pour les réseaux sociaux
+        <li data-i18n="skill-3">Designs pour les réseaux sociaux
           <ul>
-            <li>Template de publication</li>
-            <li>Bannière de couverture</li>
+            <li data-i18n="desc-skill-3">Template de publication</li>
+            <li data-i18n="desc-skill-3">Bannière de couverture</li>
           </ul>
         </li>
-        <li>Conception des imprimés (flyers, papier entête, cartes de visite...)</li>
+        <li data-i18n="skill-4">Conception des imprimés (flyers, papier entête, cartes de visite...)</li>
+       <li data-i18n="tech-1">Technologies : Adobe Illustrator, Adobe Photoshop, Canva</li>
       </ul>
-      <p>Technologies : Adobe Illustrator, Adobe Photoshop, Canva</p>
-    </li>
-
+      
     <hr>
 
     <!-- Développement web -->
-    <li>
-      <b>Développement web</b> 💻
-      <p>Création de sites web responsives, intégration HTML/CSS, développement front-end</p>
+    <li data-i18n="skill-5"><b>Développement web</b> 💻</li>
+      <li data-i18n="tech-2">Création de sites web responsives, intégration HTML/CSS, développement front-end</li>
       <ul>
-        <li>Création de formulaires interactifs</li>
-        <li>Site web vitrine responsive</li>
-        <li>Site web portfolio avec formulaire validé des deux côtés</li>
+        <li data-i18n="desc-skill-5">Création de formulaires interactifs</li>
+        <li data-i18n="desc-skill-3">Site web vitrine responsive</li>
+        <li data-i18n="desc-skill-5">Site web portfolio avec formulaire validé des deux côtés</li>
+        <li data-i18n="tech-2">Technologies : HTML, CSS, JavaScript, Bootstrap</li>
       </ul>
-      <p>Technologies : HTML, CSS, JavaScript, Bootstrap</p>
-    </li>
-
     <hr>
-
     <!-- UI/UX Design -->
-    <li>
-      <b>UI/UX Design</b>
-      <p>Conception d'interfaces utilisateur, expérience utilisateur, wireframing</p>
-      <p>Technologies : Figma, Adobe XD</p>
-    </li>
+    <li data-i18n="skill-6"><b>UI/UX Design</b></li>
+      <li data-i18n="desc-skill-6">Conception d'interfaces utilisateur, expérience utilisateur, wireframing</li>
+      <li data-i18n="tech-3">Technologies : Figma, Adobe XD</li>
 
     <hr>
 
     <!-- Motion Graphique -->
-    <li>
-      <b>Motion graphique</b>
-      <p>Technologies : Microsoft ClipChamp, Adobe After Effects, Adobe Premiere Pro</p>
-    </li>
+    <li data-i18n="skill-7"><b>Motion graphique</b></li>
+      <li data-i18n="tech-4">Technologies : Microsoft ClipChamp, Adobe After Effects, Adobe Premiere Pro</li>
+   
   </ul>
 </div>
 
@@ -199,7 +183,7 @@
                     </div>
 
                     <div class="certification-2">
-                        <h5>Site Web Responsive Certification</h5>
+                        <h5> Responsive web site Certification</h5>
                         <img src="/images/freecodcamp.webp" alt="Certification" class="cert2-img" loading="lazy" width="250" height="350">
                         <a href="https://www.freecodecamp.org/certification/fcc32c64a09-3946-4961-88ba-e72f11eb02d0/responsive-web-design" target="_blank" class="btn btn-primary" rel="noopener noreferrer" aria-label="Visitez la certification">Voir la certification</a>
                         <p>Date de délivrance : déc. 2023</p>
@@ -210,7 +194,9 @@
            
         </section>
         <section id="projets">
-            <h3>Projets</h3>
+            <h3 data-i18n="projects-title">Projets</h3>
+            <p data-i18n="projects.desc">Découvrez une sélection de mes réalisations en design et développement web.</p>
+
             <div class="projets-graphic-container">
                 
                 <div class="logo-design">
@@ -256,8 +242,8 @@
             </div>
         </section>
         <section id="contact">
-            <h3>Contact</h3>
-            <p>Vous avez un projet graphique ou web ? Contactez-moi par 👇</p>
+            <h3 data-i18n="contact-title">Contact</h3>
+            <p data-i18n="contact-desc">Vous avez un projet graphique ou web ? Contactez-moi par 👇</p>
             <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:zarouikhaoula94@gmail.com"><span class="text-danger">zarouikhaoula94@gmail.com</span></a></p>
 <a href="https://wa.me/21625226689" target="_blank" id="whatsapp-button" role="button" 
 aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
@@ -353,12 +339,12 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
             <div class="footer-links">
                 <h4>Liens utiles</h4>
 
-                    <a href="#accueil">Accueil</a>
-                    <a href="#about">A propos</a>
-                    <a href="#projets">Projets</a>
-                    <a href="conception.html">Galerie</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#accueil" data-i18n="menu.home">Accueil</a>
+                    <a href="#about" data-i18n="menu.about">A propos</a>
+                    <a href="#projets" data-i18n="menu.projects">Projets</a>
+                    <a href="conception.html" data-i18n="menu.gallery">Galerie</a>
+                    <a href="blog.html" data-i18n="menu.blog">Blog</a>
+                    <a href="#contact" data-i18n="menu.contact">Contact</a>
 
             </div>
             <div class="socialmedia">
@@ -385,7 +371,7 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
         </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2025 - Zaroui Khaoula -</p>
+         <p data-i18n="footer.copy">© 2025 Zaroui Khaoula - Tous droits réservés</p>
         </div>
         
     </footer>
