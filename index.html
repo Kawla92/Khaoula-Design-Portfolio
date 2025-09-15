@@ -420,13 +420,6 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
 
 const backToTopBtn = document.getElementsByClassName("back-to-top")[0];
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) { 
-        backToTopBtn.classList.add("show");
-    } else {
-        backToTopBtn.classList.remove("show");
-    }
-});
 
 backToTopBtn.addEventListener("click", () => {
     window.scrollTo({
@@ -434,23 +427,13 @@ backToTopBtn.addEventListener("click", () => {
         behavior: "smooth"
     });
     window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 300) {
         backToTopBtn.classList.add("show");
     } else {
         backToTopBtn.classList.remove("show");
     }
 });
 
-
-});
-      
-
-       backToTopBtn.addEventListener("click", () => {
-           window.scrollTo({
-               top: 0,
-               behavior: "smooth"
-           });
-       });
 
        const whatsappButton = document.getElementById("whatsapp-button");
        whatsappButton.addEventListener("click", function() {
