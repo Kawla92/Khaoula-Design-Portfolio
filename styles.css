@@ -9,15 +9,6 @@
     font-display: swap;
 }
 
-.fa {
-    font-family: 'FontAwesome', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    text-align: center;
-}
-
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -761,6 +752,7 @@ article a:hover {
     }
 }
  
+
 
 
 
