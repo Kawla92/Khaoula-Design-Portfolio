@@ -29,7 +29,7 @@
     <meta name="twitter:image" content="https://designbykhaoula.com/images/banner.webp">
     <meta name="google-site-verification" content="54scoGrrLjcjjbqDOdxymrIr_t5_R0duT9AC36k-D4A"/>
     <link rel="canonical" href="https://designbykhaoula.com/">
-    <title>Zaroui Khaoula - Graphisme et web</title>
+    <title data-i18n="head.title">Zaroui Khaoula - Graphisme et web</title>
     <link rel="icon" type="image/webp" href="/images/favicon.webp">    
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
@@ -56,16 +56,16 @@
 <body>
     <header>
   <div>
-    <img src="/images/Logo.webp" alt="logo" class="logo" width="250" height="250" loading="lazy">
+    <img src="/images/Logo.webp" alt="logo" class="logo" width="250" height="250" loading="lazy" data-i18n="header.logo">
     <h1 data-i18n="header.title">Zaroui Khaoula - Graphic designer -</h1>
   </div>
 
   <div class="language-selector">
     <button class="lang-btn" data-lang="fr" onclick="changeLanguage('fr')" aria-label="Changer la langue en français">
-      <span class="flag-icon flag-icon-fr"></span> <b class="text-light">Fr</b>
+      <span class="flag-icon flag-icon-fr"></span> <b class="text-light" data-i18n="lang.fr">Fr</b>
     </button>
     <button class="lang-btn" data-lang="en" onclick="changeLanguage('en')" aria-label="Change language to English">
-      <span class="flag-icon flag-icon-gb"></span> <b class="text-light">En</b>
+      <span class="flag-icon flag-icon-gb"></span> <b class="text-light" data-i18n="lang.en">En</b>
     </button>
   </div>
   <nav>
@@ -81,7 +81,7 @@
            <div id="accueil" class="Accueil">
             <div class="intro">
                 <div class="intro-text">
-            <h2 class="titre">Bienvenue dans le monde de design !</h2>
+            <h2 class="titre" data-i18n="intro.title">Bienvenue dans le monde de design !</h2>
             </div>
             </div>
             
@@ -118,31 +118,31 @@
         <li data-i18n=desc-skill-1>
           Conception de logo
           <ul>
-            <li>Logo mot-symbole</li>
+            <li data-i18n="desc-logo-2">Logo mot-symbole</li>
             <li data-i18n="desc-logo-1">Logo pictogramme ou abstrait</li>
-            <li data-i18n="desc-logo-1">Logo monogramme ou lettermark</li>
-            <li data-i18n="desc-logo-1">Logo combiné</li>
+            <li data-i18n="desc-logo-3">Logo monogramme ou lettermark</li>
+            <li data-i18n="desc-logo-4">Logo combiné</li>
           </ul>
         </li>
         <li data-i18n="desc-skill-2">Identité visuelle
           <ul>
-            <li data-i18n="desc-skill-2">Logotype et ses supports</li>
-            <li data-i18n="desc-skill-2">Palette de couleurs</li>
-            <li data-i18n="desc-skill-2">Typographie</li>
-            <li data-i18n="desc-skill-2">Éléments graphiques : motif, icônes, formes</li>
+            <li data-i18n="desc-skill-2a">Logotype et ses supports</li>
+            <li data-i18n="desc-skill-2b">Palette de couleurs</li>
+            <li data-i18n="desc-skill-2c">Typographie</li>
+            <li data-i18n="desc-skill-2d">Éléments graphiques : motif, icônes, formes</li>
           </ul>
         </li>
         <li data-i18n="skill-3">Designs pour les réseaux sociaux
           <ul>
-            <li data-i18n="desc-skill-3">Template de publication</li>
-            <li data-i18n="desc-skill-3">Bannière de couverture</li>
+            <li data-i18n="desc-skill-3a">Template de publication</li>
+            <li data-i18n="desc-skill-3b">Bannière de couverture</li>
           </ul>
         </li>
         <li data-i18n="skill-4">Conception des imprimés (flyers, papier entête, cartes de visite...)</li>
        <li data-i18n="tech-1" class="list-unstyled">Technologies : Adobe Illustrator, Adobe Photoshop, Canva</li>
       </ul>
       
-    <hr>
+    <hr data-i18n="hr-1">
 
     <!-- Développement web -->
     <li data-i18n="skill-5"><b>Développement web</b> 💻</li>
@@ -150,16 +150,16 @@
       <ul>
         <li data-i18n="desc-skill-5">Création de formulaires interactifs</li>
         <li data-i18n="desc-skill-3">Site web vitrine responsive</li>
-        <li data-i18n="desc-skill-5">Site web portfolio avec formulaire validé des deux côtés</li>
-        <li data-i18n="tech-2" class="list-unstyled">Technologies : HTML, CSS, JavaScript, Bootstrap</li>
+        <li data-i18n="desc-skill-5b">Site web portfolio avec formulaire validé des deux côtés</li>
+        <li data-i18n="tech-2b" class="list-unstyled">Technologies : HTML, CSS, JavaScript, Bootstrap</li>
       </ul>
-    <hr>
+    <hr data-i18n="hr-2">
     <!-- UI/UX Design -->
     <li data-i18n="skill-6"><b>UI/UX Design</b></li>
       <li data-i18n="desc-skill-6">Conception d'interfaces utilisateur, expérience utilisateur, wireframing</li>
       <li data-i18n="tech-3" class="list-unstyled">Technologies : Figma, Adobe XD</li>
 
-    <hr>
+    <hr data-i18n="hr-3">
 
     <!-- Motion Graphique -->
     <li data-i18n="skill-7"><b>Motion graphique</b></li>
@@ -170,26 +170,25 @@
 
             <div class="cert">
                 <div class="cert-intro">
-                    <h4>🥇 Certifications</h4>
-
+                    <h4 data-i18n="cert.title">🥇 Certifications</h4>
                 </div>
 
                 <div class="cert-content">
 
                     <div class="certification-1">
-                        <h5>UI/UX Design Certification</h5> 
-                        <p>Identifiant de la certification : <a href="https://www.coursera.org/learn/ui-ux-design" target="_blank" rel="noopener noreferrer" aria-label="Visitez la certification">D8Y23K7E7J4Z</a></p>
-                        <img src="/images/coursera.webp" alt="Certification" class="cert1-img" loading="lazy" width="250" height="300">
+                        <h5 data-i18n="cert.uiux.title">UI/UX Design Certification</h5> 
+                        <p data-i18n="cert.uiux.id">Identifiant de la certification : <a href="https://www.coursera.org/learn/ui-ux-design" target="_blank" rel="noopener noreferrer" aria-label="Visitez la certification">D8Y23K7E7J4Z</a></p>
+                        <img src="/images/coursera.webp" alt="Certification" class="cert1-img" loading="lazy" width="250" height="300" data-i18n="cert.uiux.img">
                         <a href="https://www.linkedin.com/in/khawla-zarwi-490a05374/?profileId=ACoAAFyynGwBtADnMYK4OP-hQ0AySc69Q-Ejt5o" class="btn btn-primary"
-                        target="_blank" rel="noopener noreferrer" aria-label="Visitez la certification" rel="noopener noreferrer">Voir la certification</a>
-                        <p>Date de délivrance : févr. 2024</p>
+                        target="_blank" rel="noopener noreferrer" aria-label="Visitez la certification" rel="noopener noreferrer" data-i18n="cert.uiux.btn">Voir la certification</a>
+                        <p data-i18n="cert.uiux.date">Date de délivrance : févr. 2024</p>
                     </div>
 
                     <div class="certification-2">
-                        <h5> Responsive web site Certification</h5>
-                        <img src="/images/freecodcamp.webp" alt="Certification" class="cert2-img" loading="lazy" width="250" height="350">
-                        <a href="https://www.freecodecamp.org/certification/fcc32c64a09-3946-4961-88ba-e72f11eb02d0/responsive-web-design" target="_blank" class="btn btn-primary" rel="noopener noreferrer" aria-label="Visitez la certification">Voir la certification</a>
-                        <p>Date de délivrance : déc. 2023</p>
+                        <h5 data-i18n="cert.responsive.title"> Responsive web site Certification</h5>
+                        <img src="/images/freecodcamp.webp" alt="Certification" class="cert2-img" loading="lazy" width="250" height="350" data-i18n="cert.responsive.img">
+                        <a href="https://www.freecodecamp.org/certification/fcc32c64a09-3946-4961-88ba-e72f11eb02d0/responsive-web-design" target="_blank" class="btn btn-primary" rel="noopener noreferrer" aria-label="Visitez la certification" data-i18n="cert.responsive.btn">Voir la certification</a>
+                        <p data-i18n="cert.responsive.date">Date de délivrance : déc. 2023</p>
                     </div>
                     
                 </div>
@@ -203,66 +202,66 @@
             <div class="projets-graphic-container">
                 
                 <div class="logo-design">
-                    <h4>Conception de logos</h4>
-                    <img src="/images/conceptionlogo.webp" alt="Conception de logo" loading="lazy" width="250" height="200">
-                    <a href="conception.html#conception-logo" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button">Voir le projet</a>
+                    <h4 data-i18n="projects.logo.title">Conception de logos</h4>
+                    <img src="/images/conceptionlogo.webp" alt="Conception de logo" loading="lazy" width="250" height="200" data-i18n="projects.logo.img">
+                    <a href="conception.html#conception-logo" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button" data-i18n="projects.logo.btn">Voir le projet</a>
                 </div>
 
                 <div class="conception-réseausocial">
-                    <h4>Réseaux sociaux</h4>
-                    <img src="/images/socialmedia.webp" alt="conception réseaux sociaux" loading="lazy" width="250" height="200">
-                    <a href="conception.html#design-socialmedia" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button">Voir le projet</a>
+                    <h4 data-i18n="projects.social.title">Réseaux sociaux</h4>
+                    <img src="/images/socialmedia.webp" alt="conception réseaux sociaux" loading="lazy" width="250" height="200" data-i18n="projects.social.img">
+                    <a href="conception.html#design-socialmedia" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button" data-i18n="projects.social.btn">Voir le projet</a>
                 </div>
 
                 <div class="conception-imprimées">
-                    <h4>Les imprimées</h4>
-                    <img src="images/printings.webp" alt="Conception des imprimées" loading="lazy" width="250" height="200">
-                    <a href="conception.html#printings" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button">Voir le projet</a>
+                    <h4 data-i18n="projects.print.title">Les imprimées</h4>
+                    <img src="images/printings.webp" alt="Conception des imprimées" loading="lazy" width="250" height="200" data-i18n="projects.print.img">
+                    <a href="conception.html#printings" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button" data-i18n="projects.print.btn">Voir le projet</a>
                 </div>
                 
                 <div class="dev-web">
-                    <h4>Développement web</h4>
+                    <h4 data-i18n="projects.webdev.title">Développement web</h4>
                     
-                    <img src="/images/devweb.webp" alt="Développement web" loading="lazy" width="250" height="200">
+                    <img src="/images/devweb.webp" alt="Développement web" loading="lazy" width="250" height="200" data-i18n="projects.webdev.img">
                 
-                    <a href="conception.html#dev-web" target="_blank" rel="noopener noreferrer" class="btn btn-primary mb-3" role="button">Voir le projet</a>
+                    <a href="conception.html#dev-web" target="_blank" rel="noopener noreferrer" class="btn btn-primary mb-3" role="button" data-i18n="projects.webdev.btn">Voir le projet</a>
 
                 </div>
 
             <div class="concept-web">
-                    <h4>Conception web</h4>
+                    <h4 data-i18n="projects.webconcept.title">Conception web</h4>
 
-                    <img src="/images/conceptionweb.webp" alt="Conception web" loading="lazy" width="250" height="200">
+                    <img src="/images/conceptionweb.webp" alt="Conception web" loading="lazy" width="250" height="200" data-i18n="projects.webconcept.img">
 
-                    <a href="conception.html#uiux" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button">Voir le projet</a>
+                    <a href="conception.html#uiux" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button" data-i18n="projects.webconcept.btn">Voir le projet</a>
             </div>
 
             <div class="motion-graphic">
-                    <h4>Motion Graphique</h4>
-                    <img src="/images/motiongraphic.webp" alt="Motion Graphique" loading="lazy" width="250" height="200">
+                    <h4 data-i18n="projects.motion.title">Motion Graphique</h4>
+                    <img src="/images/motiongraphic.webp" alt="Motion Graphique" loading="lazy" width="250" height="200" data-i18n="projects.motion.img">
                     <a href="https://www.behance.net/collection/217774169/Motion-graphique" target="_blank" rel="noopener noreferrer" class="btn btn-primary" 
-                    role="button" aria-label="Visitez mes projets en motion graphique">Voir le projet</a>
+                    role="button" aria-label="Visitez mes projets en motion graphique" data-i18n="projects.motion.btn">Voir le projet</a>
             </div>
         </section>
         <section id="contact">
             <h3 data-i18n="contact-title">Contact</h3>
             <p data-i18n="contact-desc">Vous avez un projet graphique ou web ? Contactez-moi par 👇</p>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:zarouikhaoula94@gmail.com"><span class="text-danger">zarouikhaoula94@gmail.com</span></a></p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:zarouikhaoula94@gmail.com"><span class="text-danger" data-i18n="contact.email">zarouikhaoula94@gmail.com</span></a></p>
 <a href="https://wa.me/21625226689" target="_blank" id="whatsapp-button" role="button" 
-aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
+aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer" data-i18n="contact.whatsapp">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="35" height="35" fill="white">
         <path d="M16 .5C7.443.5.5 7.443.5 16c0 2.823.739 5.587 2.14 8.018L.5 31.5l7.71-2.055A15.433 15.433 0 0 0 16 31.5c8.557 0 15.5-6.943 15.5-15.5S24.557.5 16 .5zm0 28.263a12.72 12.72 0 0 1-6.483-1.786l-.463-.274-4.571 1.217 1.219-4.459-.301-.474A12.72 12.72 0 0 1 3.756 16c0-6.793 5.52-12.312 12.312-12.312S28.38 9.207 28.38 16c0 6.793-5.52 12.312-12.312 12.312zm7.146-9.255c-.394-.198-2.336-1.154-2.698-1.288-.362-.134-.626-.198-.89.198s-1.02 1.288-1.25 1.552c-.23.263-.461.296-.855.099-.394-.198-1.662-.613-3.164-1.956-1.169-1.042-1.956-2.327-2.186-2.721-.23-.394-.025-.606.173-.803.178-.177.394-.461.592-.691.197-.23.263-.394.394-.658.131-.263.066-.494-.033-.691-.098-.198-.89-2.148-1.218-2.944-.321-.771-.648-.667-.89-.68l-.761-.013c-.263 0-.691.099-1.054.493-.362.395-1.385 1.354-1.385 3.303 0 1.949 1.418 3.833 1.616 4.096.197.263 2.789 4.257 6.772 5.964.946.407 1.683.65 2.258.831.949.302 1.813.259 2.496.157.761-.114 2.336-.955 2.666-1.876.329-.921.329-1.71.23-1.876-.098-.164-.362-.263-.755-.461z"/>
     </svg>
 </a>
 
-            <p>Ou via le formulaire ci-dessous :</p>
+            <p data-i18n="contact.orform">Ou via le formulaire ci-dessous :</p>
             <form action="/api/contact" method="POST" class="contact-form" id="myForm" novalidate>
                 <!-- Honeypot amélioré -->
                 <div class="honeypot-field" style="position: absolute; left: -9999px; top: -9999px; visibility: hidden; opacity: 0; height: 0; width: 0; overflow: hidden;" aria-hidden="true">
-                    <label for="website">Ne pas remplir ce champ :</label>
-                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" value="">
-                    <input type="email" name="email_confirm" tabindex="-1" autocomplete="off" value="">
-                    <input type="url" name="url_field" tabindex="-1" autocomplete="off" value="">
+                    <label for="website" data-i18n="form.honeypot.label">Ne pas remplir ce champ :</label>
+                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" value="" data-i18n="form.honeypot.website">
+                    <input type="email" name="email_confirm" tabindex="-1" autocomplete="off" value="" data-i18n="form.honeypot.email">
+                    <input type="url" name="url_field" tabindex="-1" autocomplete="off" value="" data-i18n="form.honeypot.url">
                 </div>
                 
                 <div class="form-group">
@@ -271,23 +270,23 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
                     pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ\s\-']{2,50}$"
                     title="2 à 50 caractères, lettres, espaces, tirets et apostrophes autorisés"
                     minlength="2" maxlength="50"
-                    aria-describedby="name-error">
-                    <div id="name-error" class="error-message" role="alert" aria-live="polite"></div>
+                    aria-describedby="name-error" data-i18n="form.name.input">
+                    <div id="name-error" class="error-message" role="alert" aria-live="polite" data-i18n="form.name.error"></div>
                 </div>
                 
                 <div class="form-group">
-                    <label for="email">Email <span class="required">*</span>:</label>
+                    <label for="email" data-i18n="form-email">Email <span class="required">*</span>:</label>
                     <input type="email" id="email" name="email" required class="form-control" placeholder="votre.email@exemple.com"
                     pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
                     title="Veuillez entrer un email valide"
                     maxlength="100"
-                    aria-describedby="email-error">
-                    <div id="email-error" class="error-message" role="alert" aria-live="polite"></div>
+                    aria-describedby="email-error" data-i18n="form.email.input">
+                    <div id="email-error" class="error-message" role="alert" aria-live="polite" data-i18n="form.email.error"></div>
                 </div>
                 
                 <div class="form-group">
                     <label for="subject" data-i18n="form-subject">Sujet <span class="required">*</span>:</label>
-                    <select name="subject" id="subject" class="form-control" required aria-describedby="subject-error">
+                    <select name="subject" id="subject" class="form-control" required aria-describedby="subject-error" data-i18n="form.subject.input">
                         <option value="" data-i18n="form-option-1">Choisissez un sujet</option>
                         <option value="logo" data-i18n="form-option-2">Demande de logo</option>
                         <option value="identité visuelle" data-i18n="form-option-3">Demande d'identité visuelle</option>
@@ -295,7 +294,7 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
                         <option value="site web" data-i18n="form-option-5">Demande de site Web (landing page/site vitrine/portfolio)</option>
                         <option value="autre" data-i18n="form-option-6">Autre service</option>
                     </select>
-                    <div id="subject-error" class="error-message" role="alert" aria-live="polite"></div>
+                    <div id="subject-error" class="error-message" role="alert" aria-live="polite" data-i18n="form.subject.error"></div>
                 </div>
 
                 <div class="form-group">
@@ -303,40 +302,40 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
                     <textarea id="message" name="message" rows="5" required class="form-control" 
                     placeholder="Décrivez votre projet en détail..."
                     minlength="10" maxlength="1000"
-                    aria-describedby="message-error message-counter"></textarea>
-                    <div id="message-counter" class="character-counter">0/1000 caractères</div>
-                    <div id="message-error" class="error-message" role="alert" aria-live="polite"></div>
+                    aria-describedby="message-error message-counter" data-i18n="form.message.input"></textarea>
+                    <div id="message-counter" class="character-counter" data-i18n="form.message.counter">0/1000 caractères</div>
+                    <div id="message-error" class="error-message" role="alert" aria-live="polite" data-i18n="form.message.error"></div>
                 </div>
 
                 <div class="form-group">
                     <div class="form-check">
-                        <input type="checkbox" id="privacy" name="privacy" required class="form-check-input" aria-describedby="privacy-error">
-                        <label for="privacy" class="form-check-label">
+                        <input type="checkbox" id="privacy" name="privacy" required class="form-check-input" aria-describedby="privacy-error" data-i18n="form.privacy.input">
+                        <label for="privacy" class="form-check-label" data-i18n="form-privacy">
                             J'accepte que mes données soient utilisées pour me recontacter<span class="required">*</span>
                         </label>
-                        <div id="privacy-error" class="error-message" role="alert" aria-live="polite"></div>
+                        <div id="privacy-error" class="error-message" role="alert" aria-live="polite" data-i18n="form.privacy.error"></div>
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
-                    <span class="btn-text">Envoyer le message</span>
-                    <span class="btn-loading" style="display: none;">
+                <button type="submit" class="btn btn-primary btn-block" id="submit-btn" data-i18n="form.submit">
+                    <span class="btn-text" data-i18n="form.submit.text">Envoyer le message</span>
+                    <span class="btn-loading" style="display: none;" data-i18n="form.submit.loading">
                         <i class="fa fa-spinner fa-spin"></i> Envoi en cours...
                     </span>
                 </button>
                 
-                <div id="form-messages" class="form-messages" role="alert" aria-live="polite"></div>
+                <div id="form-messages" class="form-messages" role="alert" aria-live="polite" data-i18n="form.messages"></div>
             </form>
         </section>
     </main>
-    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" data-i18n="backtotop.btn">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </button>
     <footer> 
         <div class="footer-content">
             <div class="footer-intro">
-                <img src="images/Logo.webp" class="logo-footer" width="200" height="200" alt="logo" loading="lazy">
-                   <h4>Zaroui Khaoula</h4>
+                <img src="images/Logo.webp" class="logo-footer" width="200" height="200" alt="logo" loading="lazy" data-i18n="footer.logo">
+                   <h4 data-i18n="footer.name">Zaroui Khaoula</h4>
                 <p data-i18n="footer-desc"><b>- Votre partenaire créatif !</b>-</p>
             </div>
             <div class="footer-links">
@@ -353,19 +352,19 @@ aria-label="Contactez-moi via whatsapp business" rel="noopener noreferrer">
             <div class="socialmedia">
                 <h4 data-i18n="link-title2">Suivez-moi</h4>
                 <div class="socialmedia-icon">
-                <a href="https://www.linkedin.com/in/khawla-zarwi-490a05374/" target="_blank" aria-label="Visitez mon compte LinkedIn" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/khawla-zarwi-490a05374/" target="_blank" aria-label="Visitez mon compte LinkedIn" rel="noopener noreferrer" data-i18n="footer.linkedin">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/Kawla92" target="_blank" aria-label="Visitez mon compte GitHub" rel="noopener noreferrer">
+                <a href="https://github.com/Kawla92" target="_blank" aria-label="Visitez mon compte GitHub" rel="noopener noreferrer" data-i18n="footer.github">
                     <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
-                <a href="https://www.behance.net/khaoulazaroui92" target="_blank" aria-label="Visitez mon compte Behance" rel="noopener noreferrer">
+                <a href="https://www.behance.net/khaoulazaroui92" target="_blank" aria-label="Visitez mon compte Behance" rel="noopener noreferrer" data-i18n="footer.behance">
                     <i class="fa fa-behance" aria-hidden="true"></i> 
                 </a>
-                <a href="https://www.instagram.com/graphiroots_studio/" target="_blank" aria-label="Visitez mon compte Instagram" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/graphiroots_studio/" target="_blank" aria-label="Visitez mon compte Instagram" rel="noopener noreferrer" data-i18n="footer.instagram">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61578812044076" target="_blank" aria-label="Visitez mon compte Facebook" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61578812044076" target="_blank" aria-label="Visitez mon compte Facebook" rel="noopener noreferrer" data-i18n="footer.facebook">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
                 
