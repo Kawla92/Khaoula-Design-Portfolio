@@ -162,7 +162,7 @@ const translations = {
 
     // About Section
     "about.title": "About",
-    "about.subtitle": "<i class=\"fa fa-pencil\"></i> <em>Versatile designer, between creativity & technique!</em>",
+    "about.subtitle": "<i class=\"fa fa-pencil\"></i> <em>Polyvalent designer, between creativity & technique!</em>",
     "desc-1": "Creative, curious and passionate, I started my graphic design journey through specialized training and certified programs.",
     "desc-2": "My approach combines structured learning with a natural visual sensitivity, leading me to explore various resources to enrich my practice.",
     "desc-3": "My desire to deepen my knowledge naturally led me to reference learning platforms.",
