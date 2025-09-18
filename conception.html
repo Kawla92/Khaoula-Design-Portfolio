@@ -52,7 +52,7 @@
     <body>
        <header>
   <div>
-    <img src="/images/Logo.webp" alt="logo" class="logo" width="250" height="250" loading="lazy" data-i18n="header.logo">
+    <a href="index.html"><img src="/images/Logo.webp" alt="logo" class="logo" width="250" height="250" loading="lazy" data-i18n="header.logo"></a>
     <h1 data-i18n="header.title.galerie">Zaroui Khaoula - Galerie d'art -</h1>
   </div>
 
@@ -67,11 +67,11 @@
   <nav>
     <ul>
       <li><a href="#accueil" data-i18n="menu.home">Accueil</a></li>
-      <li><a href="#about" data-i18n="menu.about">A propos</a></li>
-      <li><a href="#projets" data-i18n="menu.projects">Projets</a></li>
+      <li><a href="index.html#about" data-i18n="menu.about">A propos</a></li>
+      <li><a href="index.html#projets" data-i18n="menu.projects">Projets</a></li>
       <li><a href="conception.html" data-i18n="menu.gallery">Galerie</a></li>
       <li><a href="blog.html" data-i18n="menu.blog">Blog</a></li>
-      <li><a href="#contact" data-i18n="menu.contact">Contact</a></li>
+      <li><a href="index.html#contact" data-i18n="menu.contact">Contact</a></li>
     </ul>
   </nav>
            <div id="accueil" class="Accueil">
@@ -87,7 +87,7 @@
     <main>
         
     <a class=" backToLeft btn btn-warning back-to-left text-decoration-none" href="index.html">
-            <i class="fa fa-arrow-left" aria-hidden="true"> Retour</i>
+            <i class="fa fa-arrow-left" aria-hidden="true" data-i18n="back.menu"> Retour</i>
     </a>
         <section class="conception-logo" id="conception-logo" aria-labelledby="logo-title">
             <div>
@@ -386,7 +386,7 @@
      <footer> 
         <div class="footer-content">
             <div class="footer-intro">
-                <img src="images/Logo.webp" class="logo-footer" width="200" height="200" alt="logo" loading="lazy" data-i18n="footer.logo">
+                <a href="index.html"><img src="images/Logo.webp" class="logo-footer" width="200" height="200" alt="logo" loading="lazy" data-i18n="footer.logo"></a>
                    <h4 data-i18n="footer.name">Zaroui Khaoula</h4>
                 <p data-i18n="footer-desc"><b>- Votre partenaire créatif !</b>-</p>
             </div>
@@ -394,11 +394,11 @@
                 <h4 data-i18n="link-title1">Liens utiles</h4>
 
                     <a href="#accueil" data-i18n="menu.home">Accueil</a>
-                    <a href="#about" data-i18n="menu.about">A propos</a>
-                    <a href="#projets" data-i18n="menu.projects">Projets</a>
+                    <a href="index.html#about" data-i18n="menu.about">A propos</a>
+                    <a href="index.html#projets" data-i18n="menu.projects">Projets</a>
                     <a href="conception.html" data-i18n="menu.gallery">Galerie</a>
                     <a href="blog.html" data-i18n="menu.blog">Blog</a>
-                    <a href="#contact" data-i18n="menu.contact">Contact</a>
+                    <a href="index.html#contact" data-i18n="menu.contact">Contact</a>
 
             </div>
             <div class="socialmedia">
@@ -423,12 +423,12 @@
             </div>
             
         </div>
-        </div>
         <div class="copyright">
          <p data-i18n="footer.copy">© 2025 Zaroui Khaoula - Tous droits réservés</p>
         </div>
         
     </footer>
+    <script src="langue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         const backToTopBtn = document.querySelector('.back-to-top');
@@ -451,6 +451,7 @@
     </script>
 </body>
 </html>
+
 
 
 
