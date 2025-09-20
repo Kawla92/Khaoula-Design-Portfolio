@@ -31,16 +31,16 @@ document.addEventListener('DOMContentLoaded', function() {
         name: {
             required: 'Le nom est obligatoire',
             pattern: 'Le nom doit contenir entre 2 et 50 caractères (lettres, espaces, tirets et apostrophes uniquement)',
-            minlength: '*Le nom doit contenir au moins 2 caractères',
+            minlength: 'Le nom doit contenir au moins 2 caractères',
             maxlength: 'Le nom ne peut pas dépasser 50 caractères'
         },
         email: {
             required: 'L\'email est obligatoire',
-            pattern: '*Veuillez entrer un email valide (exemple: nom@domaine.com)',
+            pattern: 'Veuillez entrer un email valide (exemple: nom@domaine.com)',
             maxlength: 'L\'email ne peut pas dépasser 100 caractères'
         },
         subject: {
-            required: '*Veuillez choisir un sujet'
+            required: 'Veuillez choisir un sujet'
         },
         message: {
             required: 'Le message est obligatoire',
