@@ -48,11 +48,6 @@ header {
     margin: 0px 20px;
 }
 
-.error-message::before {
-    content: "*";
-    color: red;
-}
-
 .lang-btn:hover {
  background-color: crimson;
  padding: 5px;
@@ -754,6 +749,7 @@ article a:hover {
     }
 }
  
+
 
 
 
