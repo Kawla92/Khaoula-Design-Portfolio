@@ -25,14 +25,14 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zaroui Khaoula - Graphisme et web">
     <meta name="twitter:description" content="Découvrez mes articles de design graphique, UI/UX, développement, technologie de l'informatique.">
-    <meta name="twitter:image" content="https://designbykhaoula.com/images/banner.webp">
+    <meta name="twitter:image" content="images/image.webp">
     <link rel="canonical" href="https://designbykhaoula.com/">
-    <title>Blog de Zaroui Khaoula - graphisme et web -</title>
+    <title>Blog de Zaroui Khaoula -graphisme et web-</title>
     <link rel="stylesheet" href="styles.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
     <link rel="icon" type="image/webp" href="/images/favicon.webp">    
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -52,30 +52,39 @@
  
 <body>
     <header>
-        <div>
-             <img src="/images/Logo.webp" alt="logo" class="logo" width="250" height="250" loading="lazy">
-               <h1>Zaroui Khaoula - Blog</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html#accueil">Accueil</a></li>
-                <li><a href="index.html#about">À propos</a></li>
-                <li><a href="index.html#projets">Projets</a></li>
-                <li><a href="conception.html">Galerie</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div>
+  <div>
+    <img src="/images/Logo.webp" alt="logo" class="logo" width="250" height="250" loading="lazy" data-i18n="header.logo">
+    <h1 data-i18n="header.title">Zaroui Khaoula -Graphic designer-</h1>
+  </div>
+
+  <div class="language-selector">
+    <button class="lang-btn" data-lang="fr" onclick="changeLanguage('fr')" aria-label="Changer la langue en français">
+      <span class="flag-icon flag-icon-fr"></span> <b class="text-light" data-i18n="lang.fr">Fr</b>
+    </button>
+    <button class="lang-btn" data-lang="en" onclick="changeLanguage('en')" aria-label="Change language to English">
+      <span class="flag-icon flag-icon-gb"></span> <b class="text-light" data-i18n="lang.en">En</b>
+    </button>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#accueil" data-i18n="menu.home">Accueil</a></li>
+      <li><a href="#about" data-i18n="menu.about">A propos</a></li>
+      <li><a href="#projets" data-i18n="menu.projects">Projets</a></li>
+      <li><a href="conception.html" data-i18n="menu.gallery">Galerie</a></li>
+      <li><a href="blog.html" data-i18n="menu.blog">Blog</a></li>
+      <li><a href="#contact" data-i18n="menu.contact">Contact</a></li>
+    </ul>
+  </nav>
+           <div id="accueil" class="Accueil">
             <div class="intro">
                 <div class="intro-text">
-            <h2 class="titre">Bienvenue dans mon blog !</h2>
+            <h2 class="titre" data-i18n="intro.title">Bienvenue dans mon blog !</h2>
             </div>
             </div>
             
         
         </div>
-    </header>
+</header>
     <a class="btn btn-warning back-to-left text-decoration-none" href="index.html" role="button">
             <i class="fa fa-arrow-left" aria-hidden="true"> Retour</i>
     </a>
@@ -233,6 +242,7 @@ backToTopBtn.addEventListener("click", () => {
 </body>
 
 </html>
+
 
 
 
