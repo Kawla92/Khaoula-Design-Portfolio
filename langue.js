@@ -115,16 +115,16 @@ const translations = {
     "form-success": "Votre message a été envoyé avec succès !",
     "form-error": "Une erreur est survenue. Veuillez réessayer.",
     "form.name.input": "",
-    "form.name.error": "",
+    "form.name.error": "Le nom doit contenir au moins 2 caractères",
     "form.email.input": "",
-    "form.email.error": "",
+    "form.email.error": "Veuillez entrer un email valide (exemple: nom@domaine.com)",
     "form.subject.input": "",
     "form.subject.error": "",
     "form.message.input": "",
     "form.message.counter": "0/1000 caractères",
     "form.message.error": "",
     "form.privacy.input": "",
-    "form.privacy.error": "",
+    "form.privacy.error": "Vous devez accepter l'utilisation de vos données",
     "form.messages": "",
 
     // Divers
@@ -139,7 +139,11 @@ const translations = {
     "footer.github": "",
     "footer.behance": "",
     "footer.instagram": "",
-    "footer.facebook": ""
+    "footer.facebook": "",
+    "back.menu":"Retour",
+    "gallery.logo.title":"Conception de logos",
+    "gallery.socialmedia.title":"Designs destinés aux réseaux sociaux",
+    "gallery.print.title":"Conception des imprimés"
   },
 
   en: {
@@ -258,16 +262,16 @@ const translations = {
     "form-success": "Your message has been sent successfully!",
     "form-error": "An error occurred. Please try again.",
     "form.name.input": "",
-    "form.name.error": "",
+    "form.name.error": "The name should contain at least 2 caracters",
     "form.email.input": "",
-    "form.email.error": "",
+    "form.email.error": "You should enter a valid e-mail (exemple: name@domaine.com",
     "form.subject.input": "",
-    "form.subject.error": "",
+    "form.subject.error": "You should choose a subject",
     "form.message.input": "",
     "form.message.counter": "0/1000 characters",
-    "form.message.error": "",
+    "form.message.error": "The message should contain at least 10 caracters",
     "form.privacy.input": "",
-    "form.privacy.error": "",
+    "form.privacy.error": "You should allow using your data",
     "form.messages": "",
 
     // Divers
@@ -282,9 +286,16 @@ const translations = {
     "footer.github": "",
     "footer.behance": "",
     "footer.instagram": "",
-    "footer.facebook": ""
+    "footer.facebook": "",
+    "back.menu":"Back",
+    "gallery.logo.title":"Logos Design",
+    "gallery.socialmedia.title":"Social Media Designs",
+    "gallery.print.title":"Printings Designs"
+    
   }
 };
+
+
 
 function changeLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach(el => {
