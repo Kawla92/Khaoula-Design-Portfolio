@@ -1,7 +1,7 @@
 const express = require('express');
 const { body, validationResult } = require('express-validator');
 const cors = require('cors');
-const nodemailer = require('nodemailer');
+const sgMail = require('@sendgrid/mail');
 const helmet = require('helmet');
 const path = require('path');
 require('dotenv').config();
@@ -34,25 +34,22 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(express.static(path.join(__dirname)));
 
 // ===================================
-// CONFIGURATION SENDGRID
+// CONFIGURATION SENDGRID API
 // ===================================
-const transporter = nodemailer.createTransport({
-    service: 'SendGrid',
-    auth: {
-        user: 'apikey', // Obligatoire pour SendGrid
-        pass: process.env.SENDGRID_API_KEY
-    }
-});
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 // Vérification de la configuration au démarrage
-const verifyEmailConfig = async () => {
-    try {
-        await transporter.verify();
-        console.log('✅ Configuration SendGrid vérifiée avec succès');
-    } catch (error) {
-        console.error('❌ Erreur de configuration SendGrid:', error.message);
-        console.error('Vérifiez votre SENDGRID_API_KEY dans le fichier .env');
+const verifyEmailConfig = () => {
+    if (!process.env.SENDGRID_API_KEY) {
+        console.error('❌ SENDGRID_API_KEY manquante dans les variables d\'environnement');
+        return false;
     }
+    if (!process.env.SENDGRID_FROM_EMAIL) {
+        console.error('❌ SENDGRID_FROM_EMAIL manquante dans les variables d\'environnement');
+        return false;
+    }
+    console.log('✅ Configuration SendGrid vérifiée avec succès');
+    return true;
 };
 
 // ===================================
@@ -112,8 +109,8 @@ const sanitizeHtml = (text) => {
 
 const sendEmailToAdmin = async (name, email, subject, message) => {
     const mailOptions = {
-        from: process.env.SENDGRID_FROM_EMAIL,
         to: process.env.SENDGRID_FROM_EMAIL, // Vous recevez sur votre email pro
+        from: process.env.SENDGRID_FROM_EMAIL, // Email vérifié dans SendGrid
         replyTo: email,
         subject: `📩 Nouveau message de ${name} - ${subject}`,
         html: `
@@ -138,13 +135,13 @@ const sendEmailToAdmin = async (name, email, subject, message) => {
         `
     };
 
-    return await transporter.sendMail(mailOptions);
+    return await sgMail.send(mailOptions);
 };
 
 const sendConfirmationToUser = async (name, email) => {
     const mailOptions = {
-        from: `"${process.env.SENDGRID_FROM_NAME || 'Khaoula Zaroui'}" <${process.env.SENDGRID_FROM_EMAIL}>`,
         to: email,
+        from: process.env.SENDGRID_FROM_EMAIL,
         subject: '✅ Merci pour votre message !',
         html: `
             <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -174,7 +171,7 @@ const sendConfirmationToUser = async (name, email) => {
         `
     };
 
-    return await transporter.sendMail(mailOptions);
+    return await sgMail.send(mailOptions);
 };
 
 // ===================================
@@ -317,7 +314,7 @@ const server = app.listen(PORT, '0.0.0.0', async () => {
     console.log('═'.repeat(60));
     
     // Vérifier la configuration email
-    await verifyEmailConfig();
+    verifyEmailConfig();
 });
 
 server.on('error', (err) => {
