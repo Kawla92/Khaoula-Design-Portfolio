@@ -33,14 +33,26 @@ app.use(express.static(path.join(__dirname)));
 
 // --- Configuration Nodemailer ---
 const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: process.env.EMAIL_PORT,
-    secure: process.env.EMAIL_PORT == 465, // true pour le port 465, false pour les autres
-    auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-    }
+  service: "SendGrid",
+  auth: {
+    user: "apikey", // obligatoire avec SendGrid
+    pass: process.env.SENDGRID_API_KEY
+  }
 });
+
+// Fonction envoi d’e-mail
+const sendMail = async (req, res) => {
+  try {
+    const { name, email, subject, message } = req.body;
+
+    // 1️⃣ Mail que TOI tu reçois
+    await transporter.sendMail({
+      from: process.env.EMAIL_USER,
+      to: process.env.EMAIL_USER,
+      subject: `📩 Nouveau message : ${subject}`,
+      text: message,
+      replyTo: email
+    });
 
 
 // --- Règles de Validation (inchangées) ---
