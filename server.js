@@ -36,7 +36,7 @@ app.use(express.static(path.join(__dirname)));
 // ===================================
 // CONFIGURATION SENDGRID
 // ===================================
-const transporter = nodemailer.createTransporter({
+const transporter = nodemailer.createTransport({
     service: 'SendGrid',
     auth: {
         user: 'apikey', // Obligatoire pour SendGrid
