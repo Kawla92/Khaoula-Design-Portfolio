@@ -153,7 +153,7 @@ const sendConfirmationToUser = async (name, email) => {
                         Votre message a bien été reçu. Je vous remercie de m'avoir contactée.
                     </p>
                     <p style="font-size: 16px; line-height: 1.6; color: #333;">
-                        Je vous répondrai dans les plus brefs délais. Au cours de<strong>24 heures</strong>.
+                        Je vous répondrai dans les plus brefs délais. Au cours de<strong> 24 heures</strong>.
                     </p>
                     <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; border-left: 4px solid #28a745;">
                         <p style="margin: 0; color: #155724;">
