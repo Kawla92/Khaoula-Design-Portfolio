@@ -141,9 +141,91 @@ const translations = {
     "footer.instagram": "",
     "footer.facebook": "",
     "back.menu":"Retour",
-    "gallery.logo.title":"Conception de logos",
-    "gallery.socialmedia.title":"Designs destinés aux réseaux sociaux",
-    "gallery.print.title":"Conception des imprimés"
+    "head.title.galerie": "Galerie d'art graphique - Zaroui Khaoula",
+    "header.title.galerie": "Zaroui Khaoula -Graphic Designer-",
+    "intro.title.galerie": "Bienvenue dans ma galerie !",
+
+    // Logos Archilux
+    "gallery.logo.archilux.title": "Archilux",
+    "gallery.logo.archilux.slogan": "\"Cabinet d'architecture\"",
+    "gallery.logo.archilux.desc": "Archilux est une identité visuelle conçue pour un architecte, représentant à la fois créativité et rigueur. Il se décline en deux versions :<br>- Un logo pictographique, qui illustre une maison stylisée, mettant en avant l'univers architectural de manière visuelle et impactante.<br>- Un logo typographique, épuré et moderne, jouant sur les formes des lettres pour refléter élégance et professionnalisme.<br>Ces deux déclinaisons offrent une flexibilité d'utilisation selon les supports et l'image souhaitée, garantissant une forte reconnaissance visuelle.",
+
+    // Logos Bury
+    "gallery.logo.bury.title": "Bury",
+    "gallery.logo.bury.slogan": "\"Fabricant de boissons\"",
+    "gallery.logo.bury.desc": "Bury est une identité visuelle conçue pour une entreprise de fabrication et de distribution des boissons, représentant à la fois créativité et rigueur. <br>Il se décline en deux versions de type combiné c'est à dire on combine un texte et un symbole :<br>- le premier logo, qui illustre un verre cocktail stylisé remli de boissons, qui communique immédiatement le type d'activité. et présente le texte \"bury\" qui signifit le nom d'entreprise.<br>- Le deuxième logo, nous avons le texte \"bury\" qui est le nom principal, et le texte \"juice bar\" qui décrit le type d'établissement.<br>Le symbole est intégré subtilement sur la lettre \"u\" de \"bury\" sous la forme d'une feuille.<br>C'est un type de logo très courant car il permet de transmettre à la fois le nom de la marque et de créer une identité visuelle grâce au symbole. <br>Dans ce cas, la feuille suggère naturellement des ingrédients naturels et frais, ce qui est cohérent pour un établissement qui fabrique des boissons.",
+
+    // Logos Cerena
+    "gallery.logo.cerena.title": "Cerena",
+    "gallery.logo.cerena.slogan": "\"Salon de coiffure\"",
+    "gallery.logo.cerena.desc": "L'identité visuelle de Cerena, conçue pour un salon de coiffure, se décline en quatre types de logos, chacun représentant un aspect unique de la marque :<br><br>- Logo typographique (Cerena - Be Beautiful)<br><br>Ce logo repose principalement sur la typographie, mettant en avant une écriture élégante en rouge, symbole de passion et de confiance.<br>Les éléments floraux ajoutent une touche de douceur et de féminité.<br>Le slogan \"Be Beautiful\" renforce l'idée de transformation et de mise en valeur de la beauté.<br>- Logo combiné (Cerena - Élégance Classique)<br><br>Il associe une typographie manuscrite à un élément graphique circulaire avec des flèches, qui évoquent le mouvement et le renouvellement.<br>La couleur noire apporte une touche de sophistication, tandis que les nuances de rose adoucissent l'ensemble.<br>Ce logo met en avant l'élégance intemporelle et la qualité du service.<br>- Logo emblématique (Queen - Cerena Beauty Center)<br>Ce logo intègre une icône forte : une couronne, symbolisant l'exclusivité et le luxe.<br>La typographie fluide et féminine, associée au rose, renforce l'image d'un salon haut de gamme dédié aux reines modernes.<br>Il s'agit d'un logo emblématique, où l'image et le texte forment un ensemble reconnaissable et mémorable.<br>- Logo monogramme (Cerena - Portrait Minimaliste)<br>Ce logo repose sur un portrait stylisé en rose pastel, soulignant l'importance de l'individualité et du soin personnalisé.<br>Le cercle symbolise l'harmonie et le professionnalisme.<br>En simplifiant les détails, ce design minimaliste renforce l'élégance et la modernité de la marque.",
+
+    // Vêtements
+    "gallery.logo.clothings.title": "Marques pour vêtements",
+    "gallery.logo.clothings.slogan": "\"Brands de vêtements prêt-à-porter\"",
+    "gallery.logo.clothings.desc": "Clothings Brand est une identité visuelle conçue pour une marque de vêtements, représentant à la fois créativité et rigueur.<br>Il se décline en trois versions :<br>- Logo abstrait & typographique (à gauche) c'est un logo Emblématique & typographique qui met en avant un design circulaire avec des éléments abstraits rappelant la mode et le dynamisme. <br>La typographie arrondie apporte une touche de douceur, tandis que les couleurs jaunes symbolisent l'énergie et l'innovation.<br>- Logo monogramme (au centre) c'est un logo monogramme minimaliste joue sur les initiales \"EE\" de Ele Clothings, créant une image sophistiquée et haut de gamme. <br>Le choix du jaune vif évoque une marque dynamique et visible, idéale pour un branding moderne.<br>- Logo badge (à droite) c'est un logo badge inspiré des labels classiques, ce logo circulaire en noir et blanc renforce l'identité d'une marque premium et intemporelle. <br>Les étoiles et les mentions comme élégant, unique et suitable (adapté) mettent en avant les valeurs du prêt-à-porter de qualité.<br>Inspiré des labels classiques, ce logo circulaire en noir et blanc renforce l'identité d'une marque premium et intemporelle. <br>Les étoiles et les mentions comme élégant, unique et suitable (adapté) mettent en avant les valeurs du prêt-à-porter de qualité.",
+
+    // La Comida
+    "gallery.logo.comida.title": "La comida",
+    "gallery.logo.comida.slogan": "\"Boulangerie & Pâtisserie\"",
+    "gallery.logo.comida.desc": "La comida est une identité visuelle conçue pour une boulangerie et pâtisserie, représentant à la fois créativité et rigueur. <br>Il se décline en deux versions :<br>- Logo typographique (à gauche) c'est un logo typographique qui met en avant une écriture élégante et classique. <br>- Logo emblématique (à droite) c'est un logo emblématique qui met en avant un design circulaire avec des éléments abstraits rappelant la boulangerie et le dynamisme.",
+
+    // Voir plus
+    "see_more": "Voir plus",
+
+    // Social Media Designs
+    "gallery.socialmedia.title": "Designs destinés aux réseaux sociaux",
+    "gallery.socialmedia.yves.title": "Yves Saint Laurent",
+    "gallery.socialmedia.yves.slogan": "\"Mode/Parfum\"",
+    "gallery.socialmedia.yves.desc": "C'est une annonce publicitaire statique destiné au Facebook, mettant en avant l'eau de parfum Yves, <br>un article performant dans le secteur cosmologique. J'utilise une palette de couleurs implique les nuance de roses et le blanc comme couleurs principales, <br>pour donner une touche féminité et de douceur au design.",
+
+    // Imprimés
+    "gallery.print.title": "Conception des imprimés",
+    "gallery.print.flyers.title": "Flyers",
+    "gallery.print.flyers.slogan": "\"Publicité pour une entreprise de nettoyage\"",
+    "gallery.print.flyers.desc": "Ce flyer est conçu pour une entreprise de nettoyage, mettant en avant ses services de manière claire et attrayante. Le design utilise des couleurs vives et des images pertinentes pour capter l'attention et communiquer l'efficacité et la fiabilité de l'entreprise.",
+
+    "gallery.print.cards.title": "Cartes de visite",
+    "gallery.print.cards.slogan": "\"Cartes de visite pour une entreprise de nettoyage\"",
+    "gallery.print.cards.desc": "Ces cartes de visite sont conçues pour une entreprise de nettoyage, offrant un design professionnel et mémorable. Elles incluent les informations essentielles de contact et reflètent l'image de marque de l'entreprise avec un style épuré et moderne.",
+
+    "gallery.print.envelopes.title": "Enveloppes",
+    "gallery.print.envelopes.slogan": "\"Enveloppes pour une entreprise de nettoyage\"",
+    "gallery.print.envelopes.desc": "Ces enveloppes sont conçues pour une entreprise de nettoyage, intégrant le logo et les couleurs de la marque pour une communication cohérente et professionnelle. Le design est simple et élégant, renforçant l'identité visuelle de l'entreprise.",
+
+    "gallery.print.letterhead.title": "Papier en-tête",
+    "gallery.print.letterhead.slogan": "\"Papier en-tête pour une entreprise de nettoyage\"",
+    "gallery.print.letterhead.desc": "Ce papier en-tête est conçu pour une entreprise de nettoyage, avec un design épuré et professionnel qui intègre le logo et les informations de contact. Il assure une présentation uniforme et crédible pour toutes les communications officielles de l'entreprise.",
+
+    // Développement Web
+    "gallery.webdev.title": "Développement Web",
+    "gallery.webdev.portfolio.title": "Portfolio",
+    "gallery.webdev.portfolio.slogan": "\"Mon portfolio personnel\"",
+    "gallery.webdev.portfolio.desc": "Ce portfolio présente mes projets et compétences en design graphique et développement web. Il est conçu pour être responsive et facile à naviguer, offrant une expérience utilisateur fluide sur tous les appareils.",
+
+    "gallery.webdev.landingpage.title": "Landing Page",
+    "gallery.webdev.landingpage.slogan": "\"Page d'atterrissage pour un produit\"",
+    "gallery.webdev.landingpage.desc": "Cette page d'atterrissage est conçue pour promouvoir un produit spécifique, avec un design attrayant et un appel à l'action clair. Elle est optimisée pour la conversion et offre une présentation concise des avantages du produit.",
+
+    // UI/UX Design
+    "gallery.uiux.title": "UI/UX Design",
+    "gallery.uiux.app.title": "Application Mobile",
+    "gallery.uiux.app.slogan": "\"Design d'une application mobile de gestion de tâches\"",
+    "gallery.uiux.app.desc": "Ce projet UI/UX concerne la conception d'une application mobile de gestion de tâches, axée sur la simplicité et l'efficacité. L'interface utilisateur est intuitive et l'expérience utilisateur est optimisée pour une gestion rapide et facile des tâches quotidiennes.",
+
+    "gallery.uiux.website.title": "Site Web",
+    "gallery.uiux.website.slogan": "\"Design d'un site web e-commerce\"",
+    "gallery.uiux.website.desc": "Ce projet UI/UX concerne la conception d'un site web e-commerce, avec une attention particulière portée à la navigation fluide et à l'expérience d'achat. Le design est moderne et attrayant, facilitant la découverte des produits et le processus de commande.",
+
+    // Motion Graphique
+    "gallery.motion.title": "Motion Graphique",
+    "gallery.motion.intro.title": "Intro Animée",
+    "gallery.motion.intro.slogan": "\"Introduction animée pour une chaîne YouTube\"",
+    "gallery.motion.intro.desc": "Cette introduction animée est conçue pour une chaîne YouTube, avec des graphiques dynamiques et une musique entraînante. Elle capte l'attention du spectateur dès le début et établit l'identité visuelle de la chaîne.",
+
+    "gallery.motion.promo.title": "Vidéo Promotionnelle",
+    "gallery.motion.promo.slogan": "\"Vidéo promotionnelle pour un événement\"",
+    "gallery.motion.promo.desc": "Cette vidéo promotionnelle est conçue pour un événement, utilisant des animations fluides et des messages clairs pour informer et engager le public. Elle met en valeur les points forts de l'événement et incite à la participation."
   },
 
   en: {
@@ -223,7 +305,7 @@ const translations = {
     "cert.responsive.btn": "See certificate",
     "cert.responsive.date": "Date of issue: Dec. 2023",
 
-    // Projects
+    // Projets
     "projects-title": "Projects",
     "projects.desc": "Discover a selection of my achievements in design and web development.",
     "projects.logo.title": "Logo design",
@@ -287,93 +369,95 @@ const translations = {
     "footer.behance": "",
     "footer.instagram": "",
     "footer.facebook": "",
-     // Galerie - Page conception.html
-"head.title.galerie": "Graphic Art Gallery - Zaroui Khaoula",
-"header.title.galerie": "Zaroui Khaoula -Graphic Designer-",
-"intro.title.galerie": "Welcome to my gallery!",
+    "back.menu":"Back",
+    "head.title.galerie": "Graphic Art Gallery - Zaroui Khaoula",
+    "header.title.galerie": "Zaroui Khaoula -Graphic Designer-",
+    "intro.title.galerie": "Welcome to my gallery!",
 
-// Logos Archilux
-"gallery.logo.archilux.title": "Archilux",
-"gallery.logo.archilux.slogan": "\"Architecture Firm\"",
-"gallery.logo.archilux.desc": "Archilux is a visual identity designed for an architect, representing both creativity and rigor. It comes in two versions:<br>- A pictographic logo, which illustrates a stylized house, highlighting the architectural universe in a visual and impactful way.<br>- A typographic logo, refined and modern, playing on letter shapes to reflect elegance and professionalism.<br>These two variations offer usage flexibility according to media and desired image, ensuring strong visual recognition.",
+    // Logos Archilux
+    "gallery.logo.archilux.title": "Archilux",
+    "gallery.logo.archilux.slogan": "\"Architecture Firm\"",
+    "gallery.logo.archilux.desc": "Archilux is a visual identity designed for an architect, representing both creativity and rigor. It comes in two versions:<br>- A pictographic logo, which illustrates a stylized house, highlighting the architectural universe in a visual and impactful way.<br>- A typographic logo, refined and modern, playing on letter shapes to reflect elegance and professionalism.<br>These two variations offer usage flexibility according to media and desired image, ensuring strong visual recognition.",
 
-// Logos Bury
-"gallery.logo.bury.title": "Bury",
-"gallery.logo.bury.slogan": "\"Beverage Manufacturer\"",
-"gallery.logo.bury.desc": "Bury is a visual identity designed for a beverage manufacturing and distribution company, representing both creativity and rigor. <br>It comes in two combined type versions, meaning we combine text and a symbol:<br>- the first logo, which illustrates a stylized cocktail glass filled with drinks, immediately communicating the type of activity. and presents the text \"bury\" which signifies the company name.<br>- The second logo, we have the text \"bury\" which is the main name, and the text \"juice bar\" which describes the type of establishment.<br>The symbol is subtly integrated on the letter \"u\" of \"bury\" in the form of a leaf.<br>This is a very common type of logo because it allows transmitting both the brand name and creating a visual identity thanks to the symbol. <br>In this case, the leaf naturally suggests natural and fresh ingredients, which is consistent for an establishment that manufactures beverages.",
+    // Logos Bury
+    "gallery.logo.bury.title": "Bury",
+    "gallery.logo.bury.slogan": "\"Beverage Manufacturer\"",
+    "gallery.logo.bury.desc": "Bury is a visual identity designed for a beverage manufacturing and distribution company, representing both creativity and rigor. <br>It comes in two combined type versions, meaning we combine text and a symbol:<br>- the first logo, which illustrates a stylized cocktail glass filled with drinks, immediately communicating the type of activity. and presents the text \"bury\" which signifies the company name.<br>- The second logo, we have the text \"bury\" which is the main name, and the text \"juice bar\" which describes the type of establishment.<br>The symbol is subtly integrated on the letter \"u\" of \"bury\" in the form of a leaf.<br>This is a very common type of logo because it allows transmitting both the brand name and creating a visual identity thanks to the symbol. <br>In this case, the leaf naturally suggests natural and fresh ingredients, which is consistent for an establishment that manufactures beverages.",
 
-// Logos Cerena
-"gallery.logo.cerena.title": "Cerena",
-"gallery.logo.cerena.slogan": "\"Hair Salon\"",
-"gallery.logo.cerena.desc": "Cerena's visual identity, designed for a hair salon, comes in four types of logos, each representing a unique aspect of the brand:<br><br>- Typographic logo (Cerena - Be Beautiful)<br><br>This logo relies mainly on typography, highlighting elegant writing in red, symbol of passion and confidence.<br>Floral elements add a touch of softness and femininity.<br>The slogan \"Be Beautiful\" reinforces the idea of transformation and beauty enhancement.<br>- Combined logo (Cerena - Classic Elegance)<br><br>It combines handwritten typography with a circular graphic element with arrows, which evoke movement and renewal.<br>The black color brings a touch of sophistication, while pink nuances soften the whole.<br>This logo highlights timeless elegance and service quality.<br>- Emblematic logo (Queen - Cerena Beauty Center)<br>This logo integrates a strong icon: a crown, symbolizing exclusivity and luxury.<br>The fluid and feminine typography, associated with pink, reinforces the image of a high-end salon dedicated to modern queens.<br>It is an emblematic logo, where image and text form a recognizable and memorable ensemble.<br>- Monogram logo (Cerena - Minimalist Portrait)<br>This logo relies on a stylized portrait in pastel pink, emphasizing the importance of individuality and personalized care.<br>The circle symbolizes harmony and professionalism.<br>By simplifying details, this minimalist design reinforces the brand's elegance and modernity.",
+    // Logos Cerena
+    "gallery.logo.cerena.title": "Cerena",
+    "gallery.logo.cerena.slogan": "\"Hair Salon\"",
+    "gallery.logo.cerena.desc": "Cerena's visual identity, designed for a hair salon, comes in four types of logos, each representing a unique aspect of the brand:<br><br>- Typographic logo (Cerena - Be Beautiful)<br><br>This logo relies mainly on typography, highlighting elegant writing in red, symbol of passion and confidence.<br>Floral elements add a touch of softness and femininity.<br>The slogan \"Be Beautiful\" reinforces the idea of transformation and beauty enhancement.<br>- Combined logo (Cerena - Classic Elegance)<br><br>It combines handwritten typography with a circular graphic element with arrows, which evoke movement and renewal.<br>The black color brings a touch of sophistication, while pink nuances soften the whole.<br>This logo highlights timeless elegance and service quality.<br>- Emblematic logo (Queen - Cerena Beauty Center)<br>This logo integrates a strong icon: a crown, symbolizing exclusivity and luxury.<br>The fluid and feminine typography, associated with pink, reinforces the image of a high-end salon dedicated to modern queens.<br>It is an emblematic logo, where image and text form a recognizable and memorable ensemble.<br>- Monogram logo (Cerena - Minimalist Portrait)<br>This logo relies on a stylized portrait in pastel pink, emphasizing the importance of individuality and personalized care.<br>The circle symbolizes harmony and professionalism.<br>By simplifying details, this minimalist design reinforces the brand's elegance and modernity.",
 
-// Vêtements
-"gallery.logo.clothings.title": "Clothing Brands",
-"gallery.logo.clothings.slogan": "\"Ready-to-wear clothing brands\"",
-"gallery.logo.clothings.desc": "Clothings Brand is a visual identity designed for a clothing brand, representing both creativity and rigor.<br>It comes in three versions:<br>- Abstract & typographic logo (left) is an Emblematic & typographic logo that highlights a circular design with abstract elements reminiscent of fashion and dynamism. <br>The rounded typography brings a touch of softness, while yellow colors symbolize energy and innovation.<br>- Monogram logo (center) is a minimalist monogram logo playing on the initials \"EE\" of Ele Clothings, creating a sophisticated and high-end image. <br>The choice of bright yellow evokes a dynamic and visible brand, ideal for modern branding.<br>- Badge logo (right) is a badge logo inspired by classic labels, this circular black and white logo reinforces the identity of a premium and timeless brand. <br>Stars and mentions like elegant, unique and suitable emphasize the values of quality ready-to-wear.<br>Inspired by classic labels, this circular black and white logo reinforces the identity of a premium and timeless brand. <br>Stars and mentions like elegant, unique and suitable emphasize the values of quality ready-to-wear.",
+    // Vêtements
+    "gallery.logo.clothings.title": "Clothing Brands",
+    "gallery.logo.clothings.slogan": "\"Ready-to-wear clothing brands\"",
+    "gallery.logo.clothings.desc": "Clothing Brand is a visual identity designed for a clothing brand, representing both creativity and rigor.<br>It comes in three versions:<br>- Abstract & typographic logo (left) is an emblematic & typographic logo that highlights a circular design with abstract elements reminiscent of fashion and dynamism. <br>The rounded typography brings a touch of softness, while the yellow colors symbolize energy and innovation.<br>- Monogram logo (center) is a minimalist monogram logo that plays on the initials \"EE\" of Ele Clothings, creating a sophisticated and high-end image. <br>The choice of bright yellow evokes a dynamic and visible brand, ideal for modern branding.<br>- Badge logo (right) is a badge logo inspired by classic labels, this circular black and white logo reinforces the identity of a premium and timeless brand. <br>Stars and mentions like elegant, unique and suitable highlight the values of quality ready-to-wear.<br>Inspired by classic labels, this circular black and white logo reinforces the identity of a premium and timeless brand. <br>Stars and mentions like elegant, unique and suitable highlight the values of quality ready-to-wear.",
 
-// La Comida
-"gallery.logo.comida.title": "La comida",
-"gallery.logo.comida.slogan": "\"Bakery & Pastry\"",
-"gallery.logo.comida.desc": "La comida is a visual identity designed for a bakery and pastry, representing both creativity and rigor. <br>It comes in two versions:<br>- Typographic logo (left) is a typographic logo that highlights elegant and classic writing. <br>- Emblematic logo (right) is an emblematic logo that highlights a circular design with abstract elements reminiscent of bakery and dynamism.",
+    // La Comida
+    "gallery.logo.comida.title": "La Comida",
+    "gallery.logo.comida.slogan": "\"Bakery & Pastry\"",
+    "gallery.logo.comida.desc": "La Comida is a visual identity designed for a bakery and pastry shop, representing both creativity and rigor. <br>It comes in two versions:<br>- Typographic logo (left) is a typographic logo that highlights elegant and classic writing. <br>- Emblematic logo (right) is an emblematic logo that highlights a circular design with abstract elements reminiscent of baking and dynamism.",
 
-// Social Media
-"gallery.socialmedia.yves.title": "Yves Saint Laurent",
-"gallery.socialmedia.yves.slogan": "\"Fashion/Perfume\"",
-"gallery.socialmedia.yves.desc": "This is a static advertisement intended for Facebook, highlighting Yves perfume water, <br>a performing article in the cosmological sector. I use a color palette involving shades of pink and white as main colors, <br>to give a touch of femininity and softness to the design.",
+    // Voir plus
+    "see_more": "See more",
 
-"gallery.socialmedia.hp.title": "Hp",
-"gallery.socialmedia.hp.slogan": "\"Technology\"",
-"gallery.socialmedia.hp.desc": "This is a static advertisement intended for Facebook, highlighting the HP Pavilion 15 PC, <br>a performing model signed HP, the American giant of the technology sector. I use the emblematic color palette of HP Pavilion: green and black, <br>to reflect its elegant and modern design.",
+    // Social Media Designs
+    "gallery.socialmedia.title": "Social Media Designs",
+    "gallery.socialmedia.yves.title": "Yves Saint Laurent",
+    "gallery.socialmedia.yves.slogan": "\"Fashion/Perfume\"",
+    "gallery.socialmedia.yves.desc": "This is a static advertising announcement for Facebook, highlighting Yves perfume, a high-performing item in the cosmetic sector. I used a color palette involving shades of pink and white as main colors, to give a touch of femininity and softness to the design.",
 
-"gallery.socialmedia.peanut.title": "Peanut Crunch",
-"gallery.socialmedia.peanut.slogan": "\"Gastronomy\"",
-"gallery.socialmedia.peanut.desc1": "This is a static advertisement for Facebook, highlighting Peanut Crunch products, a gourmet snack brand.",
+    // Imprimés
+    "gallery.print.title": "Prints Design",
+    "gallery.print.flyers.title": "Flyers",
+    "gallery.print.flyers.slogan": "\"Advertising for a cleaning company\"",
+    "gallery.print.flyers.desc": "This flyer is designed for a cleaning company, highlighting its services in a clear and attractive way. The design uses bright colors and relevant images to capture attention and communicate the company's efficiency and reliability.",
 
-// Print
-"gallery.print.desc1": "The first two images present two advertising banners intended for a restaurant.",
-"gallery.print.desc2": "The third is a wall calendar.",
+    "gallery.print.cards.title": "Business Cards",
+    "gallery.print.cards.slogan": "\"Business cards for a cleaning company\"",
+    "gallery.print.cards.desc": "These business cards are designed for a cleaning company, offering a professional and memorable design. They include essential contact information and reflect the company's brand image with a clean and modern style.",
 
-// UI/UX
-"gallery.uiux.title": "Web and Mobile Design",
-"gallery.uiux.cartographie.title": "Cartography",
-"gallery.uiux.cartographie.slogan": "\"Map for a website\"",
-"gallery.uiux.desc1": "The first project presents the UX/UI design of a home automation control mobile application...",
-"gallery.uiux.desc2": "Remote control of opening/closing the kennel door.",
-"gallery.uiux.desc3": "Intuitive interface for real-time monitoring.",
-"gallery.uiux.desc4": "Notification system for important events.",
-"gallery.uiux.desc5": "The second project represents an online sales application.",
-"gallery.uiux.desc6": "Connection to the \"promoshoes\" site via ID or social networks.",
-"gallery.uiux.desc7": "Navigate between home, products and a chosen product page.",
-"gallery.uiux.desc8": "detailed product presentation.",
+    "gallery.print.envelopes.title": "Envelopes",
+    "gallery.print.envelopes.slogan": "\"Envelopes for a cleaning company\"",
+    "gallery.print.envelopes.desc": "These envelopes are designed for a cleaning company, integrating the logo and brand colors for consistent and professional communication. The design is simple and elegant, reinforcing the company's visual identity.",
 
-"gallery.uiux.branding.title": "Branding and visualization",
-"gallery.uiux.branding.slogan": "\"Medical Applications\"",
-"gallery.uiux.branding.more": "To Know More:",
-"gallery.uiux.branding.cardio": "Heart Rate Monitor \"Heart Guard\"",
-"gallery.uiux.branding.bio": "Microscope \"Bio Wonders\"",
+    "gallery.print.letterhead.title": "Letterhead",
+    "gallery.print.letterhead.slogan": "\"Letterhead for a cleaning company\"",
+    "gallery.print.letterhead.desc": "This letterhead is designed for a cleaning company, with a clean and professional design that integrates the logo and contact information. It ensures a uniform and credible presentation for all official company communications.",
 
-"gallery.uiux.fullproject.title": "UI/UX Design || Complete Project",
-"gallery.uiux.fullproject.slogan": "\"El Pescada Restaurant\"",
-"gallery.uiux.fullproject.desc1": "This is a Mediterranean restaurant website that includes:",
-"gallery.uiux.fullproject.desc2": "- Website mapping (Sitemap): Creation of detailed sitemaps,",
-"gallery.uiux.fullproject.desc3": "- Wireframing: Design of functional interface structures.",
-"gallery.uiux.fullproject.desc4": "- Visualization and Branding: Creation of color palettes, typographic choices and development of mood boards to define visual identity.",
-"gallery.uiux.fullproject.desc5": "Marketing Strategy and Prototyping.",
-"gallery.uiux.fullproject.project": "Complete project",
+    // Développement Web
+    "gallery.webdev.title": "Web Development",
+    "gallery.webdev.portfolio.title": "Portfolio",
+    "gallery.webdev.portfolio.slogan": "\"My personal portfolio\"",
+    "gallery.webdev.portfolio.desc": "This portfolio showcases my graphic design and web development projects and skills. It is designed to be responsive and easy to navigate, offering a fluid user experience on all devices.",
 
-// Web Dev
-"gallery.webdev.title": "Web Development",
-"gallery.webdev.desc": "You can access my web pages through github!",
-"gallery.webdev.btn.text": "Visit my projects on github",
+    "gallery.webdev.landingpage.title": "Landing Page",
+    "gallery.webdev.landingpage.slogan": "\"Landing page for a product\"",
+    "gallery.webdev.landingpage.desc": "This landing page is designed to promote a specific product, with an attractive design and a clear call to action. It is optimized for conversion and offers a concise presentation of the product's benefits.",
 
-// Boutons Voir plus
-"see_more": "See more",
-"see_more.socialmedia": "See more",
-"see_more.print": "See more"
-    
+    // UI/UX Design
+    "gallery.uiux.title": "UI/UX Design",
+    "gallery.uiux.app.title": "Mobile Application",
+    "gallery.uiux.app.slogan": "\"Task management mobile application design\"",
+    "gallery.uiux.app.desc": "This UI/UX project involves the design of a task management mobile application, focused on simplicity and efficiency. The user interface is intuitive and the user experience is optimized for quick and easy management of daily tasks.",
+
+    "gallery.uiux.website.title": "Website",
+    "gallery.uiux.website.slogan": "\"E-commerce website design\"",
+    "gallery.uiux.website.desc": "This UI/UX project involves the design of an e-commerce website, with particular attention paid to fluid navigation and the shopping experience. The design is modern and attractive, facilitating product discovery and the ordering process.",
+
+    // Motion Graphique
+    "gallery.motion.title": "Motion Graphics",
+    "gallery.motion.intro.title": "Animated Intro",
+    "gallery.motion.intro.slogan": "\"Animated introduction for a YouTube channel\"",
+    "gallery.motion.intro.desc": "This animated introduction is designed for a YouTube channel, with dynamic graphics and catchy music. It captures the viewer's attention from the start and establishes the channel's visual identity.",
+
+    "gallery.motion.promo.title": "Promotional Video",
+    "gallery.motion.promo.slogan": "\"Promotional video for an event\"",
+    "gallery.motion.promo.desc": "This promotional video is designed for an event, using fluid animations and clear messages to inform and engage the public. It highlights the event's strengths and encourages participation."
   }
 };
+
 
 
 
