@@ -287,10 +287,90 @@ const translations = {
     "footer.behance": "",
     "footer.instagram": "",
     "footer.facebook": "",
-    "back.menu":"Back",
-    "gallery.logo.title":"Logos Design",
-    "gallery.socialmedia.title":"Social Media Designs",
-    "gallery.print.title":"Printings Designs"
+     // Galerie - Page conception.html
+"head.title.galerie": "Graphic Art Gallery - Zaroui Khaoula",
+"header.title.galerie": "Zaroui Khaoula -Graphic Designer-",
+"intro.title.galerie": "Welcome to my gallery!",
+
+// Logos Archilux
+"gallery.logo.archilux.title": "Archilux",
+"gallery.logo.archilux.slogan": "\"Architecture Firm\"",
+"gallery.logo.archilux.desc": "Archilux is a visual identity designed for an architect, representing both creativity and rigor. It comes in two versions:<br>- A pictographic logo, which illustrates a stylized house, highlighting the architectural universe in a visual and impactful way.<br>- A typographic logo, refined and modern, playing on letter shapes to reflect elegance and professionalism.<br>These two variations offer usage flexibility according to media and desired image, ensuring strong visual recognition.",
+
+// Logos Bury
+"gallery.logo.bury.title": "Bury",
+"gallery.logo.bury.slogan": "\"Beverage Manufacturer\"",
+"gallery.logo.bury.desc": "Bury is a visual identity designed for a beverage manufacturing and distribution company, representing both creativity and rigor. <br>It comes in two combined type versions, meaning we combine text and a symbol:<br>- the first logo, which illustrates a stylized cocktail glass filled with drinks, immediately communicating the type of activity. and presents the text \"bury\" which signifies the company name.<br>- The second logo, we have the text \"bury\" which is the main name, and the text \"juice bar\" which describes the type of establishment.<br>The symbol is subtly integrated on the letter \"u\" of \"bury\" in the form of a leaf.<br>This is a very common type of logo because it allows transmitting both the brand name and creating a visual identity thanks to the symbol. <br>In this case, the leaf naturally suggests natural and fresh ingredients, which is consistent for an establishment that manufactures beverages.",
+
+// Logos Cerena
+"gallery.logo.cerena.title": "Cerena",
+"gallery.logo.cerena.slogan": "\"Hair Salon\"",
+"gallery.logo.cerena.desc": "Cerena's visual identity, designed for a hair salon, comes in four types of logos, each representing a unique aspect of the brand:<br><br>- Typographic logo (Cerena - Be Beautiful)<br><br>This logo relies mainly on typography, highlighting elegant writing in red, symbol of passion and confidence.<br>Floral elements add a touch of softness and femininity.<br>The slogan \"Be Beautiful\" reinforces the idea of transformation and beauty enhancement.<br>- Combined logo (Cerena - Classic Elegance)<br><br>It combines handwritten typography with a circular graphic element with arrows, which evoke movement and renewal.<br>The black color brings a touch of sophistication, while pink nuances soften the whole.<br>This logo highlights timeless elegance and service quality.<br>- Emblematic logo (Queen - Cerena Beauty Center)<br>This logo integrates a strong icon: a crown, symbolizing exclusivity and luxury.<br>The fluid and feminine typography, associated with pink, reinforces the image of a high-end salon dedicated to modern queens.<br>It is an emblematic logo, where image and text form a recognizable and memorable ensemble.<br>- Monogram logo (Cerena - Minimalist Portrait)<br>This logo relies on a stylized portrait in pastel pink, emphasizing the importance of individuality and personalized care.<br>The circle symbolizes harmony and professionalism.<br>By simplifying details, this minimalist design reinforces the brand's elegance and modernity.",
+
+// Vêtements
+"gallery.logo.clothings.title": "Clothing Brands",
+"gallery.logo.clothings.slogan": "\"Ready-to-wear clothing brands\"",
+"gallery.logo.clothings.desc": "Clothings Brand is a visual identity designed for a clothing brand, representing both creativity and rigor.<br>It comes in three versions:<br>- Abstract & typographic logo (left) is an Emblematic & typographic logo that highlights a circular design with abstract elements reminiscent of fashion and dynamism. <br>The rounded typography brings a touch of softness, while yellow colors symbolize energy and innovation.<br>- Monogram logo (center) is a minimalist monogram logo playing on the initials \"EE\" of Ele Clothings, creating a sophisticated and high-end image. <br>The choice of bright yellow evokes a dynamic and visible brand, ideal for modern branding.<br>- Badge logo (right) is a badge logo inspired by classic labels, this circular black and white logo reinforces the identity of a premium and timeless brand. <br>Stars and mentions like elegant, unique and suitable emphasize the values of quality ready-to-wear.<br>Inspired by classic labels, this circular black and white logo reinforces the identity of a premium and timeless brand. <br>Stars and mentions like elegant, unique and suitable emphasize the values of quality ready-to-wear.",
+
+// La Comida
+"gallery.logo.comida.title": "La comida",
+"gallery.logo.comida.slogan": "\"Bakery & Pastry\"",
+"gallery.logo.comida.desc": "La comida is a visual identity designed for a bakery and pastry, representing both creativity and rigor. <br>It comes in two versions:<br>- Typographic logo (left) is a typographic logo that highlights elegant and classic writing. <br>- Emblematic logo (right) is an emblematic logo that highlights a circular design with abstract elements reminiscent of bakery and dynamism.",
+
+// Social Media
+"gallery.socialmedia.yves.title": "Yves Saint Laurent",
+"gallery.socialmedia.yves.slogan": "\"Fashion/Perfume\"",
+"gallery.socialmedia.yves.desc": "This is a static advertisement intended for Facebook, highlighting Yves perfume water, <br>a performing article in the cosmological sector. I use a color palette involving shades of pink and white as main colors, <br>to give a touch of femininity and softness to the design.",
+
+"gallery.socialmedia.hp.title": "Hp",
+"gallery.socialmedia.hp.slogan": "\"Technology\"",
+"gallery.socialmedia.hp.desc": "This is a static advertisement intended for Facebook, highlighting the HP Pavilion 15 PC, <br>a performing model signed HP, the American giant of the technology sector. I use the emblematic color palette of HP Pavilion: green and black, <br>to reflect its elegant and modern design.",
+
+"gallery.socialmedia.peanut.title": "Peanut Crunch",
+"gallery.socialmedia.peanut.slogan": "\"Gastronomy\"",
+"gallery.socialmedia.peanut.desc1": "This is a static advertisement for Facebook, highlighting Peanut Crunch products, a gourmet snack brand.",
+
+// Print
+"gallery.print.desc1": "The first two images present two advertising banners intended for a restaurant.",
+"gallery.print.desc2": "The third is a wall calendar.",
+
+// UI/UX
+"gallery.uiux.title": "Web and Mobile Design",
+"gallery.uiux.cartographie.title": "Cartography",
+"gallery.uiux.cartographie.slogan": "\"Map for a website\"",
+"gallery.uiux.desc1": "The first project presents the UX/UI design of a home automation control mobile application...",
+"gallery.uiux.desc2": "Remote control of opening/closing the kennel door.",
+"gallery.uiux.desc3": "Intuitive interface for real-time monitoring.",
+"gallery.uiux.desc4": "Notification system for important events.",
+"gallery.uiux.desc5": "The second project represents an online sales application.",
+"gallery.uiux.desc6": "Connection to the \"promoshoes\" site via ID or social networks.",
+"gallery.uiux.desc7": "Navigate between home, products and a chosen product page.",
+"gallery.uiux.desc8": "detailed product presentation.",
+
+"gallery.uiux.branding.title": "Branding and visualization",
+"gallery.uiux.branding.slogan": "\"Medical Applications\"",
+"gallery.uiux.branding.more": "To Know More:",
+"gallery.uiux.branding.cardio": "Heart Rate Monitor \"Heart Guard\"",
+"gallery.uiux.branding.bio": "Microscope \"Bio Wonders\"",
+
+"gallery.uiux.fullproject.title": "UI/UX Design || Complete Project",
+"gallery.uiux.fullproject.slogan": "\"El Pescada Restaurant\"",
+"gallery.uiux.fullproject.desc1": "This is a Mediterranean restaurant website that includes:",
+"gallery.uiux.fullproject.desc2": "- Website mapping (Sitemap): Creation of detailed sitemaps,",
+"gallery.uiux.fullproject.desc3": "- Wireframing: Design of functional interface structures.",
+"gallery.uiux.fullproject.desc4": "- Visualization and Branding: Creation of color palettes, typographic choices and development of mood boards to define visual identity.",
+"gallery.uiux.fullproject.desc5": "Marketing Strategy and Prototyping.",
+"gallery.uiux.fullproject.project": "Complete project",
+
+// Web Dev
+"gallery.webdev.title": "Web Development",
+"gallery.webdev.desc": "You can access my web pages through github!",
+"gallery.webdev.btn.text": "Visit my projects on github",
+
+// Boutons Voir plus
+"see_more": "See more",
+"see_more.socialmedia": "See more",
+"see_more.print": "See more"
     
   }
 };
