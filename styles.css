@@ -386,6 +386,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 20px
 }
 
 .logo-footer {
@@ -679,8 +680,8 @@ article a:hover {
     }
 
     .logo {
-        width: 200px;
-        heigh: 200px
+        width: 180px;
+        heigh: 140px
         margin-top: -30px;
         margin-bottom: -30px;
     }
@@ -749,6 +750,7 @@ article a:hover {
     }
 }
  
+
 
 
 
