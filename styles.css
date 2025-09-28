@@ -393,9 +393,8 @@ footer {
     padding-bottom: 10px;
 }
 
-.footer-intro h5, .footer-intro h4 {
+.footer-intro h5 {
     margin: -40px;
-    font-size: 24px;
     font-weight: bold;
     color: #fff;
 }
@@ -670,8 +669,8 @@ article a:hover {
     }
 
     .logo {
-        width: 180px;
-        heigh: 140px
+        width: 160px;
+        heigh: 120px
         margin-top: -30px;
         margin-bottom: -30px;
     }
@@ -740,6 +739,7 @@ article a:hover {
     }
 }
  
+
 
 
 
