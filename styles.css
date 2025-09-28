@@ -1,15 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('fonts/fontawesome-webfont.woff2') format('woff2'),
-    url('fonts/fontawesome-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
 html {
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -750,6 +740,7 @@ article a:hover {
     }
 }
  
+
 
 
 
