@@ -376,12 +376,11 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 10px
 }
 
 .logo-footer {
     margin-bottom:30px;
-    margin-top:20px;
+    margin-top:-20px;
     margin-left:10px;
     margin-right:10px;
 }
@@ -740,6 +739,7 @@ article a:hover {
     }
 }
  
+
 
 
 
