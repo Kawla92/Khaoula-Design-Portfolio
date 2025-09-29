@@ -380,9 +380,7 @@ footer {
 }
 
 .logo-footer {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin:30px 10px;
 }
 
 .footer-intro p {
@@ -739,6 +737,7 @@ article a:hover {
     }
 }
  
+
 
 
 
