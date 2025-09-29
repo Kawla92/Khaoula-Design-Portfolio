@@ -393,7 +393,7 @@ footer {
     padding-bottom: 10px;
 }
 
-.footer-intro h5 {
+.footer-intro h5, .footer-intro h4 {
     margin: -40px;
     font-weight: bold;
     color: #fff;
@@ -739,6 +739,7 @@ article a:hover {
     }
 }
  
+
 
 
 
