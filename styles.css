@@ -73,7 +73,6 @@ nav ul li a {
     font-size: 20px;
 }
 
-
 nav ul li a:hover {
     color: crimson ;
     background-color: #fff;
@@ -84,7 +83,6 @@ nav ul li a:hover {
 }
 
 .intro {
-    
     background-image: url('images/banner.webp');
     background-size: cover;
     height: 400px;
@@ -169,9 +167,6 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
-
-
-
 section h2 {
     text-align: center;
     color: #333;
@@ -250,7 +245,6 @@ section h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin: 20px auto;
-    
 }
 
 .logo-design, .conception-réseausocial, .conception-imprimées, .dev-web, .concept-web, 
@@ -397,7 +391,7 @@ footer {
 .footer-intro h5, .footer-intro h4 {
     margin: -40px;
     font-weight: bold;
-    color: #fff;
+    color: #f4f4f4;
 }
 
 .footer-content {
@@ -698,7 +692,10 @@ article a:hover {
     .projets-graphic-container {
         margin-left: -20px;
     }
-    
+
+    .logo-footer {
+        margin: 20px 0;
+    }
     
     .description p, .competences p, .cert p {
         word-warp: break-word;
@@ -739,6 +736,7 @@ article a:hover {
     }
 }
  
+
 
 
 
