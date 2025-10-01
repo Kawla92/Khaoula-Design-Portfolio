@@ -694,7 +694,7 @@ article a:hover {
     }
 
     .logo-footer {
-        margin: 20px 0;
+        margin: 20px 30px 0;
     }
     
     .description p, .competences p, .cert p {
@@ -736,6 +736,7 @@ article a:hover {
     }
 }
  
+
 
 
 
