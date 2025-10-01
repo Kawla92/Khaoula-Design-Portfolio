@@ -670,10 +670,9 @@ article a:hover {
     }
 
     .logo {
-        width: 160px;
+        width: 180px;
         heigh: 120px
-        margin-top: -30px;
-        margin-bottom: -30px;
+        margin: 20px 0;
     }
 
     header {
@@ -740,6 +739,7 @@ article a:hover {
     }
 }
  
+
 
 
 
