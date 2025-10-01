@@ -624,7 +624,7 @@ article a:hover {
     
     .footer-content {
         flex-direction: column; /* Empile les sections du footer */
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
     
     .cert-content {
@@ -693,10 +693,6 @@ article a:hover {
         margin-left: -20px;
     }
 
-    .logo-footer {
-        margin: 20px 30px 0;
-    }
-    
     .description p, .competences p, .cert p {
         word-warp: break-word;
         overflow-wrap: anywhere;
@@ -736,6 +732,7 @@ article a:hover {
     }
 }
  
+
 
 
 
